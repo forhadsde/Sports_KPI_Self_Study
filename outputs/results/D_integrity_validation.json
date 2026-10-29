@@ -1,0 +1,28 @@
+{
+  "metadata_draft_complete_checks": 9071,
+  "metadata_draft_mismatches": 0,
+  "metadata_draft_checks_unavailable": 314,
+  "ancient_event_outcome_checks": 9385,
+  "ancient_event_outcome_mismatches": 0,
+  "ancient_timestamp_minus_duration_quantiles_seconds": [
+    -0.03340000000002874,
+    0.20010000000002037,
+    0.46669999999994616,
+    0.7001999999999953,
+    0.9668000000001484
+  ],
+  "snapshots_checked": 21040,
+  "no_completed_match_snapshots": true,
+  "all_match_observations_share_partition": true,
+  "partition_fingerprint_unchanged": true,
+  "unit_tests": [
+    "Future state and anchor state excluded from temporal extraction",
+    "Known corner path lengths recovered",
+    "Death boundary never crossed"
+  ],
+  "limits": [
+    "Consistency checks compare fields, not independent ground truth",
+    "Incomplete draft arrays are explicitly counted",
+    "Event anchored state timing remains sampled"
+  ]
+}

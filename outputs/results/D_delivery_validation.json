@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "summary_conditions_checked": 24,
+  "per_seed_records_checked": 72,
+  "notebooks": [
+    {
+      "filename": "00_dota_data_audit.ipynb",
+      "code_cells": 4,
+      "errors": 0
+    },
+    {
+      "filename": "01_environment_and_literature.ipynb",
+      "code_cells": 4,
+      "errors": 0
+    },
+    {
+      "filename": "02_data_preparation.ipynb",
+      "code_cells": 6,
+      "errors": 0
+    },
+    {
+      "filename": "03_model_comparison.ipynb",
+      "code_cells": 6,
+      "errors": 0
+    },
+    {
+      "filename": "04_calibration_and_kpi_stability.ipynb",
+      "code_cells": 5,
+      "errors": 0
+    },
+    {
+      "filename": "05_movement_sampling.ipynb",
+      "code_cells": 5,
+      "errors": 0
+    },
+    {
+      "filename": "06_findings_and_next_steps.ipynb",
+      "code_cells": 3,
+      "errors": 0
+    }
+  ],
+  "report": {
+    "cited_sources": 18,
+    "bibliography_entries": 21,
+    "missing_citation_keys": []
+  },
+  "final_metrics_sha256": "82fe0288f468d454d4fd3696c6911b61e60f219c45dc0ce233c47bd3c0d42fec",
+  "final_prediction_sha256": "e636cc92f20716f4e8e03e021cc64d9070804a27c3f6d1adf54f7111383c2e1c",
+  "scope": "Saved evidence consistency, notebook execution and citation identity checks; no fitting or final model reevaluation"
+}

@@ -1,0 +1,9 @@
+{
+  "source": "https://raw.githubusercontent.com/odota/dotaconstants/bf193a550f778dec35debf4d71d05a86bebcc418/build/heroes.json",
+  "revision": "bf193a550f778dec35debf4d71d05a86bebcc418",
+  "publisher": "The OpenDota Project and contributors",
+  "download_date": "2026-10-29",
+  "sha256": "520a3ae33260593f54d5d749a92022d7d5af0ed60d8bebec8e81ff7eb12104ad",
+  "licence": "MIT",
+  "licence_url": "https://raw.githubusercontent.com/odota/dotaconstants/bf193a550f778dec35debf4d71d05a86bebcc418/LICENSE"
+}

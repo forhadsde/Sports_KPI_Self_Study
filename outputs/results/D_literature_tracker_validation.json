@@ -1,0 +1,49 @@
+{
+  "author": "Md Forhadul Islam",
+  "source_records": 21,
+  "source_ids_match_ledger": true,
+  "native_hyperlinks": 63,
+  "filtered_tables": 4,
+  "sheets": [
+    "Read_me",
+    "Sources",
+    "Searches",
+    "Claim_map",
+    "Study_decisions"
+  ],
+  "freeze_panes": {
+    "Read_me": null,
+    "Sources": {
+      "xSplit": "2",
+      "ySplit": "1",
+      "topLeftCell": "C2",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    },
+    "Searches": {
+      "xSplit": "1",
+      "ySplit": "1",
+      "topLeftCell": "B2",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    },
+    "Claim_map": {
+      "xSplit": "1",
+      "ySplit": "1",
+      "topLeftCell": "B2",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    },
+    "Study_decisions": {
+      "xSplit": "1",
+      "ySplit": "1",
+      "topLeftCell": "B2",
+      "activePane": "bottomRight",
+      "state": "frozen"
+    }
+  },
+  "formula_errors_found": [],
+  "render_review": "Every sheet initially reviewed. Changed credit rows, metadata links, scope notes and audit decisions additionally reviewed after the edit.",
+  "limitations": "Native Excel application was not opened. Hyperlink targets and pane definitions were checked in exported OOXML. Linked sources may require access checks.",
+  "artifact_import_of_final_package": "Successful"
+}

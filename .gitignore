@@ -1,0 +1,46 @@
+data/raw/
+data/processed/
+papers/
+outputs/models/*.pt
+outputs/models/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+report/*.aux
+report/*.log
+report/*.out
+
+# Local agent instructions, configuration, prompts and working logs
+AGENTS.md
+AGENTS.local.md
+CLAUDE.md
+CLAUDE.local.md
+GEMINI.md
+SKILL.md
+.codex/
+.claude/
+.agents/
+.cursor/
+.cursorrules
+.windsurfrules
+.github/copilot-instructions.md
+.github/instructions/
+.github/prompts/
+docs/PROGRESS_LOG.md
+docs/TASKS.md
+local_agent_notes/
+agent_logs/
+prompts/
+transcripts/
+
+# Project local environments and caches
+.conda/
+.envs/
+.cache/
+
+# Report remains local until Forhad has reviewed it
+report/
+archive/
+docs/BACKGROUND.md
+docs/EMAIL_DRAFT.md
+docs/TASKS_ORIGINAL.md

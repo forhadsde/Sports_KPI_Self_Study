@@ -1,0 +1,648 @@
+{
+  "horizon_seconds": 1200,
+  "equal_width_bins": 10,
+  "prediction_aggregation": "Mean across fixed seed models",
+  "records": [
+    {
+      "model": "logistic",
+      "probability": "raw",
+      "bin": 0,
+      "matches": 146,
+      "mean_prediction": 0.04837576943107976,
+      "win_fraction": 0.02054794520547945
+    },
+    {
+      "model": "logistic",
+      "probability": "raw",
+      "bin": 1,
+      "matches": 159,
+      "mean_prediction": 0.1481345024228078,
+      "win_fraction": 0.13836477987421383
+    },
+    {
+      "model": "logistic",
+      "probability": "raw",
+      "bin": 2,
+      "matches": 164,
+      "mean_prediction": 0.2525740960651366,
+      "win_fraction": 0.27439024390243905
+    },
+    {
+      "model": "logistic",
+      "probability": "raw",
+      "bin": 3,
+      "matches": 184,
+      "mean_prediction": 0.3504240342685365,
+      "win_fraction": 0.33152173913043476
+    },
+    {
+      "model": "logistic",
+      "probability": "raw",
+      "bin": 4,
+      "matches": 193,
+      "mean_prediction": 0.447386485434392,
+      "win_fraction": 0.38860103626943004
+    },
+    {
+      "model": "logistic",
+      "probability": "raw",
+      "bin": 5,
+      "matches": 208,
+      "mean_prediction": 0.5492234723461427,
+      "win_fraction": 0.5096153846153846
+    },
+    {
+      "model": "logistic",
+      "probability": "raw",
+      "bin": 6,
+      "matches": 197,
+      "mean_prediction": 0.6488711693968612,
+      "win_fraction": 0.6548223350253807
+    },
+    {
+      "model": "logistic",
+      "probability": "raw",
+      "bin": 7,
+      "matches": 183,
+      "mean_prediction": 0.7479678331664134,
+      "win_fraction": 0.7377049180327869
+    },
+    {
+      "model": "logistic",
+      "probability": "raw",
+      "bin": 8,
+      "matches": 141,
+      "mean_prediction": 0.8487437115970757,
+      "win_fraction": 0.8085106382978723
+    },
+    {
+      "model": "logistic",
+      "probability": "raw",
+      "bin": 9,
+      "matches": 154,
+      "mean_prediction": 0.9528471491652265,
+      "win_fraction": 0.974025974025974
+    },
+    {
+      "model": "logistic",
+      "probability": "temperature",
+      "bin": 0,
+      "matches": 147,
+      "mean_prediction": 0.04746130849135552,
+      "win_fraction": 0.02040816326530612
+    },
+    {
+      "model": "logistic",
+      "probability": "temperature",
+      "bin": 1,
+      "matches": 160,
+      "mean_prediction": 0.14690708823851714,
+      "win_fraction": 0.1375
+    },
+    {
+      "model": "logistic",
+      "probability": "temperature",
+      "bin": 2,
+      "matches": 166,
+      "mean_prediction": 0.25231616718686706,
+      "win_fraction": 0.27710843373493976
+    },
+    {
+      "model": "logistic",
+      "probability": "temperature",
+      "bin": 3,
+      "matches": 185,
+      "mean_prediction": 0.35144260263267457,
+      "win_fraction": 0.33513513513513515
+    },
+    {
+      "model": "logistic",
+      "probability": "temperature",
+      "bin": 4,
+      "matches": 188,
+      "mean_prediction": 0.4481157738019915,
+      "win_fraction": 0.3882978723404255
+    },
+    {
+      "model": "logistic",
+      "probability": "temperature",
+      "bin": 5,
+      "matches": 207,
+      "mean_prediction": 0.5494706930321771,
+      "win_fraction": 0.5072463768115942
+    },
+    {
+      "model": "logistic",
+      "probability": "temperature",
+      "bin": 6,
+      "matches": 191,
+      "mean_prediction": 0.6481640292816249,
+      "win_fraction": 0.6596858638743456
+    },
+    {
+      "model": "logistic",
+      "probability": "temperature",
+      "bin": 7,
+      "matches": 187,
+      "mean_prediction": 0.7473719816872251,
+      "win_fraction": 0.732620320855615
+    },
+    {
+      "model": "logistic",
+      "probability": "temperature",
+      "bin": 8,
+      "matches": 144,
+      "mean_prediction": 0.8499024238756079,
+      "win_fraction": 0.8055555555555556
+    },
+    {
+      "model": "logistic",
+      "probability": "temperature",
+      "bin": 9,
+      "matches": 154,
+      "mean_prediction": 0.9540733406327552,
+      "win_fraction": 0.974025974025974
+    },
+    {
+      "model": "random_forest",
+      "probability": "raw",
+      "bin": 0,
+      "matches": 165,
+      "mean_prediction": 0.03789035483678306,
+      "win_fraction": 0.030303030303030304
+    },
+    {
+      "model": "random_forest",
+      "probability": "raw",
+      "bin": 1,
+      "matches": 91,
+      "mean_prediction": 0.15247843511322537,
+      "win_fraction": 0.15384615384615385
+    },
+    {
+      "model": "random_forest",
+      "probability": "raw",
+      "bin": 2,
+      "matches": 154,
+      "mean_prediction": 0.255662605664063,
+      "win_fraction": 0.2077922077922078
+    },
+    {
+      "model": "random_forest",
+      "probability": "raw",
+      "bin": 3,
+      "matches": 207,
+      "mean_prediction": 0.35369356445447253,
+      "win_fraction": 0.3333333333333333
+    },
+    {
+      "model": "random_forest",
+      "probability": "raw",
+      "bin": 4,
+      "matches": 248,
+      "mean_prediction": 0.450625492758905,
+      "win_fraction": 0.3951612903225806
+    },
+    {
+      "model": "random_forest",
+      "probability": "raw",
+      "bin": 5,
+      "matches": 289,
+      "mean_prediction": 0.5447269996277229,
+      "win_fraction": 0.5363321799307958
+    },
+    {
+      "model": "random_forest",
+      "probability": "raw",
+      "bin": 6,
+      "matches": 156,
+      "mean_prediction": 0.659014055296183,
+      "win_fraction": 0.6730769230769231
+    },
+    {
+      "model": "random_forest",
+      "probability": "raw",
+      "bin": 7,
+      "matches": 146,
+      "mean_prediction": 0.7511947784777749,
+      "win_fraction": 0.8082191780821918
+    },
+    {
+      "model": "random_forest",
+      "probability": "raw",
+      "bin": 8,
+      "matches": 84,
+      "mean_prediction": 0.8414847062819394,
+      "win_fraction": 0.7738095238095238
+    },
+    {
+      "model": "random_forest",
+      "probability": "raw",
+      "bin": 9,
+      "matches": 189,
+      "mean_prediction": 0.9650287465098449,
+      "win_fraction": 0.9470899470899471
+    },
+    {
+      "model": "random_forest",
+      "probability": "temperature",
+      "bin": 0,
+      "matches": 176,
+      "mean_prediction": 0.03679524197231359,
+      "win_fraction": 0.03409090909090909
+    },
+    {
+      "model": "random_forest",
+      "probability": "temperature",
+      "bin": 1,
+      "matches": 95,
+      "mean_prediction": 0.1550567773138792,
+      "win_fraction": 0.16842105263157894
+    },
+    {
+      "model": "random_forest",
+      "probability": "temperature",
+      "bin": 2,
+      "matches": 156,
+      "mean_prediction": 0.2555462543167307,
+      "win_fraction": 0.22435897435897437
+    },
+    {
+      "model": "random_forest",
+      "probability": "temperature",
+      "bin": 3,
+      "matches": 204,
+      "mean_prediction": 0.35440896207635686,
+      "win_fraction": 0.3480392156862745
+    },
+    {
+      "model": "random_forest",
+      "probability": "temperature",
+      "bin": 4,
+      "matches": 233,
+      "mean_prediction": 0.450891107209066,
+      "win_fraction": 0.38197424892703863
+    },
+    {
+      "model": "random_forest",
+      "probability": "temperature",
+      "bin": 5,
+      "matches": 282,
+      "mean_prediction": 0.545329424264116,
+      "win_fraction": 0.524822695035461
+    },
+    {
+      "model": "random_forest",
+      "probability": "temperature",
+      "bin": 6,
+      "matches": 139,
+      "mean_prediction": 0.6561558007541339,
+      "win_fraction": 0.7050359712230215
+    },
+    {
+      "model": "random_forest",
+      "probability": "temperature",
+      "bin": 7,
+      "matches": 159,
+      "mean_prediction": 0.7494307234363851,
+      "win_fraction": 0.7610062893081762
+    },
+    {
+      "model": "random_forest",
+      "probability": "temperature",
+      "bin": 8,
+      "matches": 86,
+      "mean_prediction": 0.8399351323865527,
+      "win_fraction": 0.7906976744186046
+    },
+    {
+      "model": "random_forest",
+      "probability": "temperature",
+      "bin": 9,
+      "matches": 199,
+      "mean_prediction": 0.9664003733965825,
+      "win_fraction": 0.9447236180904522
+    },
+    {
+      "model": "xgboost",
+      "probability": "raw",
+      "bin": 0,
+      "matches": 172,
+      "mean_prediction": 0.030164396959310034,
+      "win_fraction": 0.03488372093023256
+    },
+    {
+      "model": "xgboost",
+      "probability": "raw",
+      "bin": 1,
+      "matches": 96,
+      "mean_prediction": 0.15371466676394144,
+      "win_fraction": 0.1875
+    },
+    {
+      "model": "xgboost",
+      "probability": "raw",
+      "bin": 2,
+      "matches": 155,
+      "mean_prediction": 0.25333049470378505,
+      "win_fraction": 0.1935483870967742
+    },
+    {
+      "model": "xgboost",
+      "probability": "raw",
+      "bin": 3,
+      "matches": 198,
+      "mean_prediction": 0.3496632625910167,
+      "win_fraction": 0.3686868686868687
+    },
+    {
+      "model": "xgboost",
+      "probability": "raw",
+      "bin": 4,
+      "matches": 255,
+      "mean_prediction": 0.45224149160914945,
+      "win_fraction": 0.38823529411764707
+    },
+    {
+      "model": "xgboost",
+      "probability": "raw",
+      "bin": 5,
+      "matches": 239,
+      "mean_prediction": 0.5471626161863946,
+      "win_fraction": 0.5523012552301255
+    },
+    {
+      "model": "xgboost",
+      "probability": "raw",
+      "bin": 6,
+      "matches": 175,
+      "mean_prediction": 0.6507466849826631,
+      "win_fraction": 0.6228571428571429
+    },
+    {
+      "model": "xgboost",
+      "probability": "raw",
+      "bin": 7,
+      "matches": 137,
+      "mean_prediction": 0.7479116976116116,
+      "win_fraction": 0.7518248175182481
+    },
+    {
+      "model": "xgboost",
+      "probability": "raw",
+      "bin": 8,
+      "matches": 118,
+      "mean_prediction": 0.850752317299277,
+      "win_fraction": 0.788135593220339
+    },
+    {
+      "model": "xgboost",
+      "probability": "raw",
+      "bin": 9,
+      "matches": 184,
+      "mean_prediction": 0.9738803392519122,
+      "win_fraction": 0.9619565217391305
+    },
+    {
+      "model": "xgboost",
+      "probability": "temperature",
+      "bin": 0,
+      "matches": 170,
+      "mean_prediction": 0.030519084691859814,
+      "win_fraction": 0.03529411764705882
+    },
+    {
+      "model": "xgboost",
+      "probability": "temperature",
+      "bin": 1,
+      "matches": 96,
+      "mean_prediction": 0.15454732499913207,
+      "win_fraction": 0.1875
+    },
+    {
+      "model": "xgboost",
+      "probability": "temperature",
+      "bin": 2,
+      "matches": 157,
+      "mean_prediction": 0.2553109699373792,
+      "win_fraction": 0.1910828025477707
+    },
+    {
+      "model": "xgboost",
+      "probability": "temperature",
+      "bin": 3,
+      "matches": 195,
+      "mean_prediction": 0.3507583902177648,
+      "win_fraction": 0.3641025641025641
+    },
+    {
+      "model": "xgboost",
+      "probability": "temperature",
+      "bin": 4,
+      "matches": 257,
+      "mean_prediction": 0.45206859603466226,
+      "win_fraction": 0.38910505836575876
+    },
+    {
+      "model": "xgboost",
+      "probability": "temperature",
+      "bin": 5,
+      "matches": 244,
+      "mean_prediction": 0.5472218816479048,
+      "win_fraction": 0.5491803278688525
+    },
+    {
+      "model": "xgboost",
+      "probability": "temperature",
+      "bin": 6,
+      "matches": 175,
+      "mean_prediction": 0.6511728207270304,
+      "win_fraction": 0.6342857142857142
+    },
+    {
+      "model": "xgboost",
+      "probability": "temperature",
+      "bin": 7,
+      "matches": 135,
+      "mean_prediction": 0.7473639277764309,
+      "win_fraction": 0.7555555555555555
+    },
+    {
+      "model": "xgboost",
+      "probability": "temperature",
+      "bin": 8,
+      "matches": 118,
+      "mean_prediction": 0.8495681013091138,
+      "win_fraction": 0.788135593220339
+    },
+    {
+      "model": "xgboost",
+      "probability": "temperature",
+      "bin": 9,
+      "matches": 182,
+      "mean_prediction": 0.9737058047191562,
+      "win_fraction": 0.9615384615384616
+    },
+    {
+      "model": "neural_network",
+      "probability": "raw",
+      "bin": 0,
+      "matches": 151,
+      "mean_prediction": 0.05297459691817726,
+      "win_fraction": 0.026490066225165563
+    },
+    {
+      "model": "neural_network",
+      "probability": "raw",
+      "bin": 1,
+      "matches": 139,
+      "mean_prediction": 0.1491883447130235,
+      "win_fraction": 0.14388489208633093
+    },
+    {
+      "model": "neural_network",
+      "probability": "raw",
+      "bin": 2,
+      "matches": 151,
+      "mean_prediction": 0.25101751388435073,
+      "win_fraction": 0.25165562913907286
+    },
+    {
+      "model": "neural_network",
+      "probability": "raw",
+      "bin": 3,
+      "matches": 197,
+      "mean_prediction": 0.35258992185245713,
+      "win_fraction": 0.350253807106599
+    },
+    {
+      "model": "neural_network",
+      "probability": "raw",
+      "bin": 4,
+      "matches": 250,
+      "mean_prediction": 0.45330675264199577,
+      "win_fraction": 0.388
+    },
+    {
+      "model": "neural_network",
+      "probability": "raw",
+      "bin": 5,
+      "matches": 222,
+      "mean_prediction": 0.5474548291515658,
+      "win_fraction": 0.5765765765765766
+    },
+    {
+      "model": "neural_network",
+      "probability": "raw",
+      "bin": 6,
+      "matches": 181,
+      "mean_prediction": 0.6475909928590553,
+      "win_fraction": 0.6187845303867403
+    },
+    {
+      "model": "neural_network",
+      "probability": "raw",
+      "bin": 7,
+      "matches": 161,
+      "mean_prediction": 0.7466349395659153,
+      "win_fraction": 0.7701863354037267
+    },
+    {
+      "model": "neural_network",
+      "probability": "raw",
+      "bin": 8,
+      "matches": 116,
+      "mean_prediction": 0.8536223758911266,
+      "win_fraction": 0.8017241379310345
+    },
+    {
+      "model": "neural_network",
+      "probability": "raw",
+      "bin": 9,
+      "matches": 161,
+      "mean_prediction": 0.9532576195941949,
+      "win_fraction": 0.9627329192546584
+    },
+    {
+      "model": "neural_network",
+      "probability": "temperature",
+      "bin": 0,
+      "matches": 161,
+      "mean_prediction": 0.05077562732742841,
+      "win_fraction": 0.031055900621118012
+    },
+    {
+      "model": "neural_network",
+      "probability": "temperature",
+      "bin": 1,
+      "matches": 143,
+      "mean_prediction": 0.14893351045452355,
+      "win_fraction": 0.14685314685314685
+    },
+    {
+      "model": "neural_network",
+      "probability": "temperature",
+      "bin": 2,
+      "matches": 149,
+      "mean_prediction": 0.2516798595720756,
+      "win_fraction": 0.2684563758389262
+    },
+    {
+      "model": "neural_network",
+      "probability": "temperature",
+      "bin": 3,
+      "matches": 189,
+      "mean_prediction": 0.35128661228025193,
+      "win_fraction": 0.3492063492063492
+    },
+    {
+      "model": "neural_network",
+      "probability": "temperature",
+      "bin": 4,
+      "matches": 246,
+      "mean_prediction": 0.45228939380264543,
+      "win_fraction": 0.3902439024390244
+    },
+    {
+      "model": "neural_network",
+      "probability": "temperature",
+      "bin": 5,
+      "matches": 219,
+      "mean_prediction": 0.5487144266452237,
+      "win_fraction": 0.5753424657534246
+    },
+    {
+      "model": "neural_network",
+      "probability": "temperature",
+      "bin": 6,
+      "matches": 170,
+      "mean_prediction": 0.6482522308826446,
+      "win_fraction": 0.6176470588235294
+    },
+    {
+      "model": "neural_network",
+      "probability": "temperature",
+      "bin": 7,
+      "matches": 166,
+      "mean_prediction": 0.7478543110640652,
+      "win_fraction": 0.7590361445783133
+    },
+    {
+      "model": "neural_network",
+      "probability": "temperature",
+      "bin": 8,
+      "matches": 117,
+      "mean_prediction": 0.8548781021028503,
+      "win_fraction": 0.7863247863247863
+    },
+    {
+      "model": "neural_network",
+      "probability": "temperature",
+      "bin": 9,
+      "matches": 169,
+      "mean_prediction": 0.9554876406517254,
+      "win_fraction": 0.9644970414201184
+    }
+  ],
+  "limits": "Descriptive bin curves; sparse bins and dependent matches limit interpretation"
+}

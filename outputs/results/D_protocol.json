@@ -1,0 +1,99 @@
+{
+  "status": "final evaluation complete; do not tune on these results",
+  "horizons_seconds": [
+    600,
+    1200,
+    1800
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "partition_counts": {
+    "train": 5620,
+    "test": 1890,
+    "validation": 1390,
+    "calibration": 485
+  },
+  "date_boundaries": [
+    "2025-08-20 00:00:00+00:00",
+    "2025-09-29 00:00:00+00:00",
+    "2025-10-14 00:00:00+00:00"
+  ],
+  "partition_sha256": "e8289bea726c74ec18e6517f6398cc37482182f833f5e6b1777aff1c7ccbe6c4",
+  "feature_rule": "Radiant minus Dire observed totals",
+  "snapshot_tolerance_seconds": 1.2,
+  "selection": "latest observation no later than horizon",
+  "series_limitation": "No series IDs; complete UTC dates grouped; teams may recur",
+  "excluded_inputs": [
+    "eventual duration",
+    "final scores",
+    "final statistics",
+    "retrospective roles",
+    "match identifiers",
+    "outcomes"
+  ],
+  "planned_models": [
+    "logistic",
+    "random_forest",
+    "xgboost",
+    "neural_network"
+  ],
+  "planned_primary_metrics": [
+    "ROC AUC",
+    "accuracy",
+    "Brier score",
+    "log loss"
+  ],
+  "final_test_policy": "No final test predictions until development and protocol freeze are complete",
+  "clock_alignment_version": "combat_event_anchor_v2",
+  "temporal_rule": "Match clock from combat events; preceding raw tick states; active matches only",
+  "team_alignment_version": "metadata_draft_identity_v3",
+  "team_rule": "Verified hero name to metadata draft; never infer side from replay slot order",
+  "snapshot_age_bound_seconds": 2.4,
+  "analysis_frozen": true,
+  "primary_horizon_seconds": 1200,
+  "primary_comparison": "logistic versus neural_network; raw probabilities; seed averaged predictions for paired intervals",
+  "calibration_reporting": "Always report raw and temperature adjusted probabilities; no choice using final outcomes",
+  "bootstrap_reporting": "Match bootstrap per model; paired match and UTC day block bootstrap for primary comparison; descriptive intervals conditional on data",
+  "matched_cohort_reporting": "Also report the neural model on common final matches observed at all horizons",
+  "conditional_hero_extension": "Deferred: retrospective role timing provenance and generic inventory values prevent a defensible prospective extension in this study",
+  "model_settings": {
+    "logistic": {
+      "C": 1,
+      "max_iter": 2000
+    },
+    "random_forest": {
+      "trees": 300,
+      "max_depth": 8,
+      "min_samples_leaf": 10
+    },
+    "xgboost": {
+      "trees": 400,
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "subsample": 0.8,
+      "colsample": 0.8,
+      "device": "cuda"
+    },
+    "neural_network": {
+      "hidden": [
+        64,
+        64
+      ],
+      "dropout": 0.5,
+      "optimizer": "Adam",
+      "learning_rate": 0.001,
+      "weight_decay": 1e-05,
+      "max_epochs": 200,
+      "patience": 25,
+      "batch_size": 512
+    }
+  },
+  "code_sha256": {
+    "src\\dota_data.py": "f86124f2248e62d12acecfc46cc251ff99eddcc468e3d5320208aecc912bca5b",
+    "src\\dota_models.py": "17f163ea543a4f2c0e8fb18ba3c05889b3f646dde8595b161b8880c0026bcc93",
+    "src\\run_dota_study.py": "c6ba7e663c48afb0f98c74d3146d7e130dd521eedac36f1c77edf93cd921a70d"
+  }
+}

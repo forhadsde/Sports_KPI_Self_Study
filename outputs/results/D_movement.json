@@ -1,0 +1,88 @@
+{
+  "clock_alignment_version": "combat_event_anchor_v2",
+  "window_seconds": [
+    0,
+    1200
+  ],
+  "native_sampling": "approximately one second with preceding combat event match clock estimates",
+  "coarse_interval_seconds": 60,
+  "offsets_seconds": [
+    0,
+    15,
+    30,
+    45
+  ],
+  "speed_multiplier": 1.75,
+  "jump_slack_coordinate_units": 64,
+  "max_gap_seconds": 1.2,
+  "matched_player_offset_rows": 266680,
+  "unique_development_matches": 6667,
+  "summaries": [
+    {
+      "offset_seconds": 0,
+      "matches": 1374,
+      "median_retained_fraction": 0.27903928329643557,
+      "retained_fraction_iqr": [
+        0.21629100269537752,
+        0.34139679210159657
+      ],
+      "median_95_match_bootstrap_interval": [
+        0.2724019858838456,
+        0.2836885869822366
+      ],
+      "matched_intervals": 9436
+    },
+    {
+      "offset_seconds": 15,
+      "matches": 1337,
+      "median_retained_fraction": 0.26637958418097835,
+      "retained_fraction_iqr": [
+        0.20304118963082707,
+        0.33502543478157526
+      ],
+      "median_95_match_bootstrap_interval": [
+        0.2594611820574698,
+        0.27335121812868296
+      ],
+      "matched_intervals": 9455
+    },
+    {
+      "offset_seconds": 30,
+      "matches": 1330,
+      "median_retained_fraction": 0.2620472931454312,
+      "retained_fraction_iqr": [
+        0.20182972625715942,
+        0.31973694468467473
+      ],
+      "median_95_match_bootstrap_interval": [
+        0.255739644285487,
+        0.2671236805698109
+      ],
+      "matched_intervals": 9327
+    },
+    {
+      "offset_seconds": 45,
+      "matches": 1371,
+      "median_retained_fraction": 0.2607645241283095,
+      "retained_fraction_iqr": [
+        0.2043245860426875,
+        0.32663159354141896
+      ],
+      "median_95_match_bootstrap_interval": [
+        0.25495229180350076,
+        0.26648243668470856
+      ],
+      "matched_intervals": 9602
+    }
+  ],
+  "interpretation": "Operational sampled path displacement on matched continuous segments, not true walking distance or causal influence on winning",
+  "limits": [
+    "Death and gaps split segments",
+    "The speed based jump rule may exclude genuine rapid movement and miss some ability movement",
+    "Native sampling is not continuous ground truth",
+    "Event anchored clocks have finite sampling resolution",
+    "No claim about the magnitude in League of Legends",
+    "Offsets are correlated within matches",
+    "Only training and validation matches active at the window end; no final test outcomes used"
+  ]
+}

@@ -1,0 +1,2269 @@
+{
+  "test_table": [
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "probability": "raw",
+      "matches": 1745,
+      "auc_mean": 0.6834467758309618,
+      "auc_sd": 1.3597399555105182e-16,
+      "accuracy_mean": 0.6246418338108882,
+      "accuracy_sd": 0.0,
+      "brier_mean": 0.22221881534416685,
+      "brier_sd": 0.0,
+      "log_loss_mean": 0.6319719365759462,
+      "log_loss_sd": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "probability": "temperature",
+      "matches": 1745,
+      "auc_mean": 0.6834467758309618,
+      "auc_sd": 1.3597399555105182e-16,
+      "accuracy_mean": 0.6246418338108882,
+      "accuracy_sd": 0.0,
+      "brier_mean": 0.2223054584559111,
+      "brier_sd": 0.0,
+      "log_loss_mean": 0.632096964982245,
+      "log_loss_sd": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "probability": "raw",
+      "matches": 1745,
+      "auc_mean": 0.6812813742147131,
+      "auc_sd": 0.0012798705993149718,
+      "accuracy_mean": 0.6265520534861508,
+      "accuracy_sd": 0.005565922553709064,
+      "brier_mean": 0.22269393674303473,
+      "brier_sd": 0.00030999041810814636,
+      "log_loss_mean": 0.6333134599213052,
+      "log_loss_sd": 0.0004691643564922831
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "probability": "temperature",
+      "matches": 1745,
+      "auc_mean": 0.6812813742147131,
+      "auc_sd": 0.0012798705993149718,
+      "accuracy_mean": 0.6265520534861508,
+      "accuracy_sd": 0.005565922553709064,
+      "brier_mean": 0.22277940634182547,
+      "brier_sd": 0.00034286452216948817,
+      "log_loss_mean": 0.6331373431746931,
+      "log_loss_sd": 0.0007026673421984018
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "probability": "raw",
+      "matches": 1745,
+      "auc_mean": 0.6805199769257607,
+      "auc_sd": 0.00035272079013559356,
+      "accuracy_mean": 0.6236867239732569,
+      "accuracy_sd": 0.001442184228322963,
+      "brier_mean": 0.22304560975706353,
+      "brier_sd": 8.803215928830443e-05,
+      "log_loss_mean": 0.633898293583957,
+      "log_loss_sd": 0.00015692983210466608
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "probability": "temperature",
+      "matches": 1745,
+      "auc_mean": 0.6805199769257607,
+      "auc_sd": 0.00035272079013559356,
+      "accuracy_mean": 0.6236867239732569,
+      "accuracy_sd": 0.001442184228322963,
+      "brier_mean": 0.22311006506613607,
+      "brier_sd": 0.00012003908073893262,
+      "log_loss_mean": 0.6340285600848127,
+      "log_loss_sd": 0.00023968653730404367
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "probability": "raw",
+      "matches": 1745,
+      "auc_mean": 0.6713459505236415,
+      "auc_sd": 0.0019453457926704738,
+      "accuracy_mean": 0.6166189111747851,
+      "accuracy_sd": 0.0017191977077363751,
+      "brier_mean": 0.2260757839083988,
+      "brier_sd": 0.0005561515732099592,
+      "log_loss_mean": 0.6410304566125051,
+      "log_loss_sd": 0.0015293724178691481
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "probability": "temperature",
+      "matches": 1745,
+      "auc_mean": 0.6713459505236415,
+      "auc_sd": 0.0019453457926704738,
+      "accuracy_mean": 0.6166189111747851,
+      "accuracy_sd": 0.0017191977077363751,
+      "brier_mean": 0.22558940249252712,
+      "brier_sd": 0.0006354271079244211,
+      "log_loss_mean": 0.6396337924421397,
+      "log_loss_sd": 0.001764082037295122
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "probability": "raw",
+      "matches": 1729,
+      "auc_mean": 0.8212893031228239,
+      "auc_sd": 0.0,
+      "accuracy_mean": 0.7368421052631579,
+      "accuracy_sd": 0.0,
+      "brier_mean": 0.17262912201921124,
+      "brier_sd": 0.0,
+      "log_loss_mean": 0.5108326060190476,
+      "log_loss_sd": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "probability": "temperature",
+      "matches": 1729,
+      "auc_mean": 0.8212893031228239,
+      "auc_sd": 0.0,
+      "accuracy_mean": 0.7368421052631579,
+      "accuracy_sd": 0.0,
+      "brier_mean": 0.17262856965952086,
+      "brier_sd": 0.0,
+      "log_loss_mean": 0.5107637480854528,
+      "log_loss_sd": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "probability": "raw",
+      "matches": 1729,
+      "auc_mean": 0.8149269287767601,
+      "auc_sd": 0.0019773158284559257,
+      "accuracy_mean": 0.7360709465972625,
+      "accuracy_sd": 0.0014555300627088414,
+      "brier_mean": 0.1754575973595093,
+      "brier_sd": 0.0007417869266068139,
+      "log_loss_mean": 0.5172821209381336,
+      "log_loss_sd": 0.0025555970246007383
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "probability": "temperature",
+      "matches": 1729,
+      "auc_mean": 0.8149269287767601,
+      "auc_sd": 0.0019773158284559257,
+      "accuracy_mean": 0.7360709465972625,
+      "accuracy_sd": 0.0014555300627088414,
+      "brier_mean": 0.17546677405481728,
+      "brier_sd": 0.000771007572605492,
+      "log_loss_mean": 0.5171176634785579,
+      "log_loss_sd": 0.00246406526098387
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "probability": "raw",
+      "matches": 1729,
+      "auc_mean": 0.818904333386898,
+      "auc_sd": 0.0010349426890499602,
+      "accuracy_mean": 0.7356853672643147,
+      "accuracy_sd": 0.002650419719465483,
+      "brier_mean": 0.1741451862107275,
+      "brier_sd": 0.0003503986437418528,
+      "log_loss_mean": 0.51354583777609,
+      "log_loss_sd": 0.0004786314407343426
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "probability": "temperature",
+      "matches": 1729,
+      "auc_mean": 0.818904333386898,
+      "auc_sd": 0.0010349426890499602,
+      "accuracy_mean": 0.7356853672643147,
+      "accuracy_sd": 0.002650419719465483,
+      "brier_mean": 0.17402208572621583,
+      "brier_sd": 0.0003692511938647749,
+      "log_loss_mean": 0.5134912345072693,
+      "log_loss_sd": 0.0004837544946285608
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "probability": "raw",
+      "matches": 1729,
+      "auc_mean": 0.8137522988197904,
+      "auc_sd": 0.0003718563851979386,
+      "accuracy_mean": 0.7314439946018894,
+      "accuracy_sd": 0.0026080102676823997,
+      "brier_mean": 0.17597353479656544,
+      "brier_sd": 0.00011710668450170652,
+      "log_loss_mean": 0.5170880077548224,
+      "log_loss_sd": 0.0004488534466360347
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "probability": "temperature",
+      "matches": 1729,
+      "auc_mean": 0.8137522988197904,
+      "auc_sd": 0.0003718563851979386,
+      "accuracy_mean": 0.7314439946018894,
+      "accuracy_sd": 0.0026080102676823997,
+      "brier_mean": 0.17596215063327772,
+      "brier_sd": 0.00011867786975654705,
+      "log_loss_mean": 0.5169498842024357,
+      "log_loss_sd": 0.0004343748805304993
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "probability": "raw",
+      "matches": 758,
+      "auc_mean": 0.9363742722833664,
+      "auc_sd": 0.0,
+      "accuracy_mean": 0.8548812664907651,
+      "accuracy_sd": 0.0,
+      "brier_mean": 0.10154438327891953,
+      "brier_sd": 0.0,
+      "log_loss_mean": 0.3240560104351108,
+      "log_loss_sd": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "probability": "temperature",
+      "matches": 758,
+      "auc_mean": 0.9363742722833664,
+      "auc_sd": 0.0,
+      "accuracy_mean": 0.8548812664907651,
+      "accuracy_sd": 0.0,
+      "brier_mean": 0.10162799829415231,
+      "brier_sd": 0.0,
+      "log_loss_mean": 0.3245179855152689,
+      "log_loss_sd": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "probability": "raw",
+      "matches": 758,
+      "auc_mean": 0.9336373805236992,
+      "auc_sd": 0.0005009113201407437,
+      "accuracy_mean": 0.8487247141600703,
+      "accuracy_sd": 0.002015204791097547,
+      "brier_mean": 0.10408367244445903,
+      "brier_sd": 0.0005355396165831756,
+      "log_loss_mean": 0.33282017422676424,
+      "log_loss_sd": 0.000920285883497691
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "probability": "temperature",
+      "matches": 758,
+      "auc_mean": 0.9336373805236992,
+      "auc_sd": 0.0005009113201407437,
+      "accuracy_mean": 0.8487247141600703,
+      "accuracy_sd": 0.002015204791097547,
+      "brier_mean": 0.1041105018550485,
+      "brier_sd": 0.00044032687880267175,
+      "log_loss_mean": 0.33166847644714376,
+      "log_loss_sd": 0.0007500025991848888
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "probability": "raw",
+      "matches": 758,
+      "auc_mean": 0.9309892275753521,
+      "auc_sd": 0.0008462211429184154,
+      "accuracy_mean": 0.8526824978012314,
+      "accuracy_sd": 0.004633093119108485,
+      "brier_mean": 0.10459955135162091,
+      "brier_sd": 0.00043778682538138527,
+      "log_loss_mean": 0.3411530822477504,
+      "log_loss_sd": 0.0014718368288885344
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "probability": "temperature",
+      "matches": 758,
+      "auc_mean": 0.9309892275753521,
+      "auc_sd": 0.0008462211429184154,
+      "accuracy_mean": 0.8526824978012314,
+      "accuracy_sd": 0.004633093119108485,
+      "brier_mean": 0.10463191487169793,
+      "brier_sd": 0.00044168817601997125,
+      "log_loss_mean": 0.34109250366014504,
+      "log_loss_sd": 0.0014547139987800654
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "probability": "raw",
+      "matches": 758,
+      "auc_mean": 0.9265359403862007,
+      "auc_sd": 0.0008150226894161508,
+      "accuracy_mean": 0.8412489006156552,
+      "accuracy_sd": 0.006093406534982879,
+      "brier_mean": 0.10912998154581703,
+      "brier_sd": 0.00046438492837691487,
+      "log_loss_mean": 0.3542018161050439,
+      "log_loss_sd": 0.0023293284614120157
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "probability": "temperature",
+      "matches": 758,
+      "auc_mean": 0.9265359403862007,
+      "auc_sd": 0.0008150226894161508,
+      "accuracy_mean": 0.8412489006156552,
+      "accuracy_sd": 0.006093406534982879,
+      "brier_mean": 0.10880733521160042,
+      "brier_sd": 0.0005564111647157967,
+      "log_loss_mean": 0.34815651044416024,
+      "log_loss_sd": 0.0019453543713187954
+    }
+  ],
+  "primary_paired_comparison": {
+    "match": {
+      "auc": [
+        0.0023167471877313245,
+        0.009242440392591833
+      ],
+      "accuracy": [
+        -0.008675534991324452,
+        0.011567379988432602
+      ],
+      "brier": [
+        -0.004127814307868411,
+        -0.0008755694263873421
+      ],
+      "log_loss": [
+        -0.009708310092073891,
+        -0.0018445618585407116
+      ]
+    },
+    "utc_day_block": {
+      "auc": [
+        0.001613578804508367,
+        0.009833282662758694
+      ],
+      "accuracy": [
+        -0.00853303162399321,
+        0.01102865615123178
+      ],
+      "brier": [
+        -0.0042338985004025005,
+        -0.0008720521280141989
+      ],
+      "log_loss": [
+        -0.009652338620629936,
+        -0.0014250679038824798
+      ]
+    },
+    "observed_logistic_minus_neural": {
+      "auc": 0.005747495848733131,
+      "accuracy": 0.0011567379988431936,
+      "brier": -0.002515180118435628,
+      "log_loss": -0.005631416693265279
+    },
+    "matches": 1729,
+    "utc_days": 49
+  },
+  "common_cohort_neural": [
+    {
+      "horizon_seconds": 600,
+      "matches": 664,
+      "auc": 0.6230738802056981,
+      "accuracy": 0.5993975903614458,
+      "brier": 0.23833067038988934,
+      "log_loss": 0.6695368482016294
+    },
+    {
+      "horizon_seconds": 1200,
+      "matches": 664,
+      "auc": 0.7277628032345014,
+      "accuracy": 0.6566265060240963,
+      "brier": 0.21088007045500962,
+      "log_loss": 0.6048895606733213
+    },
+    {
+      "horizon_seconds": 1800,
+      "matches": 664,
+      "auc": 0.9356135525238494,
+      "accuracy": 0.8524096385542169,
+      "brier": 0.10294513637357683,
+      "log_loss": 0.33003812317194814
+    }
+  ],
+  "development_rank_summary": [
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "feature": "assists_diff",
+      "mean_rank": 4.0,
+      "mean_absolute_shap": 0.0672392416748177,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "feature": "denies_diff",
+      "mean_rank": 6.0,
+      "mean_absolute_shap": 0.017232141903479055,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "feature": "hp_diff",
+      "mean_rank": 8.0,
+      "mean_absolute_shap": 0.002019424041860569,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "feature": "is_alive_diff",
+      "mean_rank": 10.0,
+      "mean_absolute_shap": 0.0007134309020613699,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "feature": "kills_diff",
+      "mean_rank": 7.0,
+      "mean_absolute_shap": 0.01577524536298991,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "feature": "last_hits_diff",
+      "mean_rank": 3.0,
+      "mean_absolute_shap": 0.09831191256012606,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "feature": "level_diff",
+      "mean_rank": 9.0,
+      "mean_absolute_shap": 0.0012843635379331218,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "feature": "net_worth_diff",
+      "mean_rank": 1.0,
+      "mean_absolute_shap": 0.3227713100678561,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "feature": "towers_alive_diff",
+      "mean_rank": 5.0,
+      "mean_absolute_shap": 0.036569859541764616,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "feature": "xp_diff",
+      "mean_rank": 2.0,
+      "mean_absolute_shap": 0.10797763483170449,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "feature": "assists_diff",
+      "mean_rank": 4.666666666666667,
+      "mean_absolute_shap": 0.0629409480831858,
+      "fixed_model_top3_frequency": 0.017666666666666667
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "feature": "denies_diff",
+      "mean_rank": 9.0,
+      "mean_absolute_shap": 0.020822611202968726,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "feature": "hp_diff",
+      "mean_rank": 8.666666666666666,
+      "mean_absolute_shap": 0.022549293187656378,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "feature": "is_alive_diff",
+      "mean_rank": 9.0,
+      "mean_absolute_shap": 0.019682660851932116,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "feature": "kills_diff",
+      "mean_rank": 5.0,
+      "mean_absolute_shap": 0.06709840925869533,
+      "fixed_model_top3_frequency": 0.3333333333333333
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "feature": "last_hits_diff",
+      "mean_rank": 3.0,
+      "mean_absolute_shap": 0.10263243067818924,
+      "fixed_model_top3_frequency": 0.6666666666666666
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "feature": "level_diff",
+      "mean_rank": 5.0,
+      "mean_absolute_shap": 0.0593280937387893,
+      "fixed_model_top3_frequency": 0.3333333333333333
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "feature": "net_worth_diff",
+      "mean_rank": 1.0,
+      "mean_absolute_shap": 0.12848271857986523,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "feature": "towers_alive_diff",
+      "mean_rank": 6.333333333333333,
+      "mean_absolute_shap": 0.04835878731591947,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "feature": "xp_diff",
+      "mean_rank": 3.3333333333333335,
+      "mean_absolute_shap": 0.0859503210707165,
+      "fixed_model_top3_frequency": 0.649
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "feature": "assists_diff",
+      "mean_rank": 5.666666666666667,
+      "mean_absolute_shap": 0.007385120770603472,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "feature": "denies_diff",
+      "mean_rank": 7.0,
+      "mean_absolute_shap": 0.0058925334378482075,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "feature": "hp_diff",
+      "mean_rank": 8.0,
+      "mean_absolute_shap": 0.0049501212232268,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "feature": "is_alive_diff",
+      "mean_rank": 10.0,
+      "mean_absolute_shap": 0.002202173521235362,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "feature": "kills_diff",
+      "mean_rank": 4.0,
+      "mean_absolute_shap": 0.014422158054191178,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "feature": "last_hits_diff",
+      "mean_rank": 2.6666666666666665,
+      "mean_absolute_shap": 0.026761012468414985,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "feature": "level_diff",
+      "mean_rank": 5.333333333333333,
+      "mean_absolute_shap": 0.007755887118322764,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "feature": "net_worth_diff",
+      "mean_rank": 1.0,
+      "mean_absolute_shap": 0.06493763511224852,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "feature": "towers_alive_diff",
+      "mean_rank": 9.0,
+      "mean_absolute_shap": 0.0039725722020495765,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "feature": "xp_diff",
+      "mean_rank": 2.3333333333333335,
+      "mean_absolute_shap": 0.029170411566024877,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "feature": "assists_diff",
+      "mean_rank": 5.333333333333333,
+      "mean_absolute_shap": 0.07744936560949611,
+      "fixed_model_top3_frequency": 0.0003333333333333333
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "feature": "denies_diff",
+      "mean_rank": 4.0,
+      "mean_absolute_shap": 0.09097058562727393,
+      "fixed_model_top3_frequency": 0.001
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "feature": "hp_diff",
+      "mean_rank": 6.0,
+      "mean_absolute_shap": 0.07619213759939762,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "feature": "is_alive_diff",
+      "mean_rank": 9.666666666666666,
+      "mean_absolute_shap": 0.027082240361242366,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "feature": "kills_diff",
+      "mean_rank": 6.666666666666667,
+      "mean_absolute_shap": 0.06805981541325708,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "feature": "last_hits_diff",
+      "mean_rank": 2.0,
+      "mean_absolute_shap": 0.16112519394400251,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "feature": "level_diff",
+      "mean_rank": 8.0,
+      "mean_absolute_shap": 0.043265939374126074,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "feature": "net_worth_diff",
+      "mean_rank": 1.0,
+      "mean_absolute_shap": 0.37008623128915935,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "feature": "towers_alive_diff",
+      "mean_rank": 9.333333333333334,
+      "mean_absolute_shap": 0.03380550542024352,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "feature": "xp_diff",
+      "mean_rank": 3.0,
+      "mean_absolute_shap": 0.13136865599204853,
+      "fixed_model_top3_frequency": 0.9986666666666667
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "feature": "assists_diff",
+      "mean_rank": 6.0,
+      "mean_absolute_shap": 0.04660106006096817,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "feature": "denies_diff",
+      "mean_rank": 10.0,
+      "mean_absolute_shap": 0.006398894135236522,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "feature": "hp_diff",
+      "mean_rank": 5.0,
+      "mean_absolute_shap": 0.061650340760964956,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "feature": "is_alive_diff",
+      "mean_rank": 2.0,
+      "mean_absolute_shap": 0.16835365663320323,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "feature": "kills_diff",
+      "mean_rank": 9.0,
+      "mean_absolute_shap": 0.006479874943731852,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "feature": "last_hits_diff",
+      "mean_rank": 7.0,
+      "mean_absolute_shap": 0.04179041106087392,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "feature": "level_diff",
+      "mean_rank": 8.0,
+      "mean_absolute_shap": 0.03222115482790563,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "feature": "net_worth_diff",
+      "mean_rank": 1.0,
+      "mean_absolute_shap": 0.8600825371135912,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "feature": "towers_alive_diff",
+      "mean_rank": 4.0,
+      "mean_absolute_shap": 0.08101617407072531,
+      "fixed_model_top3_frequency": 0.001
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "feature": "xp_diff",
+      "mean_rank": 3.0,
+      "mean_absolute_shap": 0.09906804906089639,
+      "fixed_model_top3_frequency": 0.999
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "feature": "assists_diff",
+      "mean_rank": 5.333333333333333,
+      "mean_absolute_shap": 0.14859781905412697,
+      "fixed_model_top3_frequency": 0.21733333333333335
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "feature": "denies_diff",
+      "mean_rank": 10.0,
+      "mean_absolute_shap": 0.020143792600623083,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "feature": "hp_diff",
+      "mean_rank": 8.333333333333334,
+      "mean_absolute_shap": 0.055943949965959895,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "feature": "is_alive_diff",
+      "mean_rank": 5.333333333333333,
+      "mean_absolute_shap": 0.12779946320521654,
+      "fixed_model_top3_frequency": 0.2916666666666667
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "feature": "kills_diff",
+      "mean_rank": 6.0,
+      "mean_absolute_shap": 0.12369955854334573,
+      "fixed_model_top3_frequency": 0.0003333333333333333
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "feature": "last_hits_diff",
+      "mean_rank": 4.666666666666667,
+      "mean_absolute_shap": 0.15441087877691947,
+      "fixed_model_top3_frequency": 0.05433333333333334
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "feature": "level_diff",
+      "mean_rank": 8.666666666666666,
+      "mean_absolute_shap": 0.049140155878925874,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "feature": "net_worth_diff",
+      "mean_rank": 1.0,
+      "mean_absolute_shap": 0.3459857644938893,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "feature": "towers_alive_diff",
+      "mean_rank": 3.0,
+      "mean_absolute_shap": 0.19162106824114744,
+      "fixed_model_top3_frequency": 0.6546666666666666
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "feature": "xp_diff",
+      "mean_rank": 2.6666666666666665,
+      "mean_absolute_shap": 0.21414981856347973,
+      "fixed_model_top3_frequency": 0.7816666666666666
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "feature": "assists_diff",
+      "mean_rank": 5.0,
+      "mean_absolute_shap": 0.010989488454150063,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "feature": "denies_diff",
+      "mean_rank": 10.0,
+      "mean_absolute_shap": 0.0034001732681598214,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "feature": "hp_diff",
+      "mean_rank": 7.666666666666667,
+      "mean_absolute_shap": 0.008341207958458503,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "feature": "is_alive_diff",
+      "mean_rank": 7.333333333333333,
+      "mean_absolute_shap": 0.008735130666253746,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "feature": "kills_diff",
+      "mean_rank": 3.0,
+      "mean_absolute_shap": 0.016633325922567485,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "feature": "last_hits_diff",
+      "mean_rank": 9.0,
+      "mean_absolute_shap": 0.0075288480637470635,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "feature": "level_diff",
+      "mean_rank": 6.0,
+      "mean_absolute_shap": 0.009128201831233616,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "feature": "net_worth_diff",
+      "mean_rank": 1.0,
+      "mean_absolute_shap": 0.10517545917760979,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "feature": "towers_alive_diff",
+      "mean_rank": 4.0,
+      "mean_absolute_shap": 0.012827550049880947,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "feature": "xp_diff",
+      "mean_rank": 2.0,
+      "mean_absolute_shap": 0.04940861472593989,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "feature": "assists_diff",
+      "mean_rank": 8.0,
+      "mean_absolute_shap": 0.07383651311881174,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "feature": "denies_diff",
+      "mean_rank": 6.333333333333333,
+      "mean_absolute_shap": 0.08345005241633618,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "feature": "hp_diff",
+      "mean_rank": 6.666666666666667,
+      "mean_absolute_shap": 0.08043721379854733,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "feature": "is_alive_diff",
+      "mean_rank": 3.0,
+      "mean_absolute_shap": 0.15092074553100096,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "feature": "kills_diff",
+      "mean_rank": 9.0,
+      "mean_absolute_shap": 0.06544604571822414,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "feature": "last_hits_diff",
+      "mean_rank": 4.333333333333333,
+      "mean_absolute_shap": 0.09948623150691323,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "feature": "level_diff",
+      "mean_rank": 10.0,
+      "mean_absolute_shap": 0.054839815609769804,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "feature": "net_worth_diff",
+      "mean_rank": 1.0,
+      "mean_absolute_shap": 0.8730668417228946,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "feature": "towers_alive_diff",
+      "mean_rank": 4.666666666666667,
+      "mean_absolute_shap": 0.09407919720429359,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "feature": "xp_diff",
+      "mean_rank": 2.0,
+      "mean_absolute_shap": 0.18285691167172224,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "feature": "assists_diff",
+      "mean_rank": 8.0,
+      "mean_absolute_shap": 0.027921495549889458,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "feature": "denies_diff",
+      "mean_rank": 10.0,
+      "mean_absolute_shap": 0.008450389554449335,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "feature": "hp_diff",
+      "mean_rank": 7.0,
+      "mean_absolute_shap": 0.07097062594919146,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "feature": "is_alive_diff",
+      "mean_rank": 5.0,
+      "mean_absolute_shap": 0.3779268396408814,
+      "fixed_model_top3_frequency": 0.09200000000000001
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "feature": "kills_diff",
+      "mean_rank": 3.0,
+      "mean_absolute_shap": 0.4065457196567261,
+      "fixed_model_top3_frequency": 0.544
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "feature": "last_hits_diff",
+      "mean_rank": 6.0,
+      "mean_absolute_shap": 0.14252662527749504,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "feature": "level_diff",
+      "mean_rank": 9.0,
+      "mean_absolute_shap": 0.018840613319329298,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "feature": "net_worth_diff",
+      "mean_rank": 1.0,
+      "mean_absolute_shap": 2.041900897619124,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "feature": "towers_alive_diff",
+      "mean_rank": 2.0,
+      "mean_absolute_shap": 0.4995404700118429,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "feature": "xp_diff",
+      "mean_rank": 4.0,
+      "mean_absolute_shap": 0.40300844605456926,
+      "fixed_model_top3_frequency": 0.36400000000000005
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "feature": "assists_diff",
+      "mean_rank": 7.666666666666667,
+      "mean_absolute_shap": 0.1036953829993763,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "feature": "denies_diff",
+      "mean_rank": 10.0,
+      "mean_absolute_shap": 0.04894574588206524,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "feature": "hp_diff",
+      "mean_rank": 7.0,
+      "mean_absolute_shap": 0.11153662457824491,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "feature": "is_alive_diff",
+      "mean_rank": 4.0,
+      "mean_absolute_shap": 0.4481017598360874,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "feature": "kills_diff",
+      "mean_rank": 5.0,
+      "mean_absolute_shap": 0.37943045926598035,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "feature": "last_hits_diff",
+      "mean_rank": 6.333333333333333,
+      "mean_absolute_shap": 0.1467027854044621,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "feature": "level_diff",
+      "mean_rank": 9.0,
+      "mean_absolute_shap": 0.05671387033976316,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "feature": "net_worth_diff",
+      "mean_rank": 1.0,
+      "mean_absolute_shap": 1.6707331970634793,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "feature": "towers_alive_diff",
+      "mean_rank": 2.6666666666666665,
+      "mean_absolute_shap": 0.6989766553184987,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "feature": "xp_diff",
+      "mean_rank": 2.3333333333333335,
+      "mean_absolute_shap": 0.7278185275918077,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "feature": "assists_diff",
+      "mean_rank": 5.333333333333333,
+      "mean_absolute_shap": 0.015907499482315176,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "feature": "denies_diff",
+      "mean_rank": 10.0,
+      "mean_absolute_shap": 0.0033486817954168067,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "feature": "hp_diff",
+      "mean_rank": 4.0,
+      "mean_absolute_shap": 0.023134383170209553,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "feature": "is_alive_diff",
+      "mean_rank": 7.0,
+      "mean_absolute_shap": 0.013375010949226789,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "feature": "kills_diff",
+      "mean_rank": 8.0,
+      "mean_absolute_shap": 0.009905802377790963,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "feature": "last_hits_diff",
+      "mean_rank": 9.0,
+      "mean_absolute_shap": 0.005364749765160932,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "feature": "level_diff",
+      "mean_rank": 5.666666666666667,
+      "mean_absolute_shap": 0.01523566229521262,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "feature": "net_worth_diff",
+      "mean_rank": 1.0,
+      "mean_absolute_shap": 0.19997164915557822,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "feature": "towers_alive_diff",
+      "mean_rank": 3.0,
+      "mean_absolute_shap": 0.04830627684628693,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "feature": "xp_diff",
+      "mean_rank": 2.0,
+      "mean_absolute_shap": 0.07277823901831192,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "feature": "assists_diff",
+      "mean_rank": 8.333333333333334,
+      "mean_absolute_shap": 0.19413946080632627,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "feature": "denies_diff",
+      "mean_rank": 8.666666666666666,
+      "mean_absolute_shap": 0.18730792641137128,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "feature": "hp_diff",
+      "mean_rank": 6.0,
+      "mean_absolute_shap": 0.2530285222511826,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "feature": "is_alive_diff",
+      "mean_rank": 4.333333333333333,
+      "mean_absolute_shap": 0.34504720528812705,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "feature": "kills_diff",
+      "mean_rank": 4.666666666666667,
+      "mean_absolute_shap": 0.31822499653420505,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "feature": "last_hits_diff",
+      "mean_rank": 7.0,
+      "mean_absolute_shap": 0.22461916487688457,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "feature": "level_diff",
+      "mean_rank": 10.0,
+      "mean_absolute_shap": 0.11886372322081466,
+      "fixed_model_top3_frequency": 0.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "feature": "net_worth_diff",
+      "mean_rank": 1.0,
+      "mean_absolute_shap": 1.9663880712167618,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "feature": "towers_alive_diff",
+      "mean_rank": 2.6666666666666665,
+      "mean_absolute_shap": 0.5434322993663697,
+      "fixed_model_top3_frequency": 1.0
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "feature": "xp_diff",
+      "mean_rank": 2.3333333333333335,
+      "mean_absolute_shap": 0.543921650795555,
+      "fixed_model_top3_frequency": 1.0
+    }
+  ],
+  "seed_rank_agreement": [
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "pairwise_spearman": [
+        0.9999999999999999,
+        0.9999999999999999,
+        0.9999999999999999
+      ],
+      "mean_spearman": 0.9999999999999999
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "pairwise_spearman": [
+        0.6363636363636362,
+        0.9515151515151514,
+        0.6
+      ],
+      "mean_spearman": 0.7292929292929292
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "pairwise_spearman": [
+        0.9878787878787878,
+        0.9757575757575757,
+        0.9878787878787878
+      ],
+      "mean_spearman": 0.9838383838383837
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "pairwise_spearman": [
+        0.9878787878787878,
+        0.9757575757575757,
+        0.9515151515151514
+      ],
+      "mean_spearman": 0.9717171717171716
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "pairwise_spearman": [
+        0.9999999999999999,
+        0.9999999999999999,
+        0.9999999999999999
+      ],
+      "mean_spearman": 0.9999999999999999
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "pairwise_spearman": [
+        0.8787878787878788,
+        0.8666666666666665,
+        0.7818181818181817
+      ],
+      "mean_spearman": 0.8424242424242423
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "pairwise_spearman": [
+        0.9999999999999999,
+        0.9878787878787878,
+        0.9878787878787878
+      ],
+      "mean_spearman": 0.9919191919191919
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "pairwise_spearman": [
+        0.9999999999999999,
+        0.9757575757575757,
+        0.9757575757575757
+      ],
+      "mean_spearman": 0.9838383838383837
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "pairwise_spearman": [
+        0.9999999999999999,
+        0.9999999999999999,
+        0.9999999999999999
+      ],
+      "mean_spearman": 0.9999999999999999
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "pairwise_spearman": [
+        0.9878787878787878,
+        0.9757575757575757,
+        0.9515151515151514
+      ],
+      "mean_spearman": 0.9717171717171716
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "pairwise_spearman": [
+        0.9999999999999999,
+        0.9878787878787878,
+        0.9878787878787878
+      ],
+      "mean_spearman": 0.9919191919191919
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "pairwise_spearman": [
+        0.9636363636363635,
+        0.9878787878787878,
+        0.9757575757575757
+      ],
+      "mean_spearman": 0.9757575757575756
+    }
+  ],
+  "training_refit_rank_summary": [
+    {
+      "model": "logistic",
+      "feature": "net_worth_diff",
+      "refits": 30,
+      "mean_rank": 1.0,
+      "rank_iqr": [
+        1.0,
+        1.0
+      ],
+      "top3_frequency": 1.0
+    },
+    {
+      "model": "logistic",
+      "feature": "xp_diff",
+      "refits": 30,
+      "mean_rank": 5.9,
+      "rank_iqr": [
+        4.0,
+        8.0
+      ],
+      "top3_frequency": 0.23333333333333334
+    },
+    {
+      "model": "logistic",
+      "feature": "kills_diff",
+      "refits": 30,
+      "mean_rank": 6.266666666666667,
+      "rank_iqr": [
+        5.0,
+        7.75
+      ],
+      "top3_frequency": 0.03333333333333333
+    },
+    {
+      "model": "logistic",
+      "feature": "assists_diff",
+      "refits": 30,
+      "mean_rank": 6.5,
+      "rank_iqr": [
+        5.0,
+        9.0
+      ],
+      "top3_frequency": 0.2
+    },
+    {
+      "model": "logistic",
+      "feature": "last_hits_diff",
+      "refits": 30,
+      "mean_rank": 7.2,
+      "rank_iqr": [
+        6.0,
+        9.0
+      ],
+      "top3_frequency": 0.03333333333333333
+    },
+    {
+      "model": "logistic",
+      "feature": "denies_diff",
+      "refits": 30,
+      "mean_rank": 8.3,
+      "rank_iqr": [
+        8.0,
+        9.0
+      ],
+      "top3_frequency": 0.0
+    },
+    {
+      "model": "logistic",
+      "feature": "level_diff",
+      "refits": 30,
+      "mean_rank": 7.066666666666666,
+      "rank_iqr": [
+        6.0,
+        8.0
+      ],
+      "top3_frequency": 0.0
+    },
+    {
+      "model": "logistic",
+      "feature": "hp_diff",
+      "refits": 30,
+      "mean_rank": 5.6,
+      "rank_iqr": [
+        3.0,
+        7.0
+      ],
+      "top3_frequency": 0.3
+    },
+    {
+      "model": "logistic",
+      "feature": "is_alive_diff",
+      "refits": 30,
+      "mean_rank": 2.2666666666666666,
+      "rank_iqr": [
+        2.0,
+        2.0
+      ],
+      "top3_frequency": 0.9666666666666667
+    },
+    {
+      "model": "logistic",
+      "feature": "towers_alive_diff",
+      "refits": 30,
+      "mean_rank": 4.9,
+      "rank_iqr": [
+        4.0,
+        6.0
+      ],
+      "top3_frequency": 0.23333333333333334
+    },
+    {
+      "model": "random_forest",
+      "feature": "net_worth_diff",
+      "refits": 30,
+      "mean_rank": 1.0,
+      "rank_iqr": [
+        1.0,
+        1.0
+      ],
+      "top3_frequency": 1.0
+    },
+    {
+      "model": "random_forest",
+      "feature": "xp_diff",
+      "refits": 30,
+      "mean_rank": 2.0,
+      "rank_iqr": [
+        2.0,
+        2.0
+      ],
+      "top3_frequency": 1.0
+    },
+    {
+      "model": "random_forest",
+      "feature": "kills_diff",
+      "refits": 30,
+      "mean_rank": 4.0,
+      "rank_iqr": [
+        3.0,
+        5.0
+      ],
+      "top3_frequency": 0.6
+    },
+    {
+      "model": "random_forest",
+      "feature": "assists_diff",
+      "refits": 30,
+      "mean_rank": 5.133333333333334,
+      "rank_iqr": [
+        4.0,
+        6.75
+      ],
+      "top3_frequency": 0.2
+    },
+    {
+      "model": "random_forest",
+      "feature": "last_hits_diff",
+      "refits": 30,
+      "mean_rank": 7.5,
+      "rank_iqr": [
+        6.0,
+        9.0
+      ],
+      "top3_frequency": 0.0
+    },
+    {
+      "model": "random_forest",
+      "feature": "denies_diff",
+      "refits": 30,
+      "mean_rank": 9.633333333333333,
+      "rank_iqr": [
+        10.0,
+        10.0
+      ],
+      "top3_frequency": 0.0
+    },
+    {
+      "model": "random_forest",
+      "feature": "level_diff",
+      "refits": 30,
+      "mean_rank": 6.1,
+      "rank_iqr": [
+        5.0,
+        7.0
+      ],
+      "top3_frequency": 0.06666666666666667
+    },
+    {
+      "model": "random_forest",
+      "feature": "hp_diff",
+      "refits": 30,
+      "mean_rank": 7.3,
+      "rank_iqr": [
+        6.25,
+        8.75
+      ],
+      "top3_frequency": 0.06666666666666667
+    },
+    {
+      "model": "random_forest",
+      "feature": "is_alive_diff",
+      "refits": 30,
+      "mean_rank": 7.366666666666666,
+      "rank_iqr": [
+        6.0,
+        9.0
+      ],
+      "top3_frequency": 0.0
+    },
+    {
+      "model": "random_forest",
+      "feature": "towers_alive_diff",
+      "refits": 30,
+      "mean_rank": 4.966666666666667,
+      "rank_iqr": [
+        4.0,
+        5.75
+      ],
+      "top3_frequency": 0.06666666666666667
+    },
+    {
+      "model": "xgboost",
+      "feature": "net_worth_diff",
+      "refits": 30,
+      "mean_rank": 1.0,
+      "rank_iqr": [
+        1.0,
+        1.0
+      ],
+      "top3_frequency": 1.0
+    },
+    {
+      "model": "xgboost",
+      "feature": "xp_diff",
+      "refits": 30,
+      "mean_rank": 2.466666666666667,
+      "rank_iqr": [
+        2.0,
+        2.0
+      ],
+      "top3_frequency": 0.8666666666666667
+    },
+    {
+      "model": "xgboost",
+      "feature": "kills_diff",
+      "refits": 30,
+      "mean_rank": 8.033333333333333,
+      "rank_iqr": [
+        7.0,
+        10.0
+      ],
+      "top3_frequency": 0.0
+    },
+    {
+      "model": "xgboost",
+      "feature": "assists_diff",
+      "refits": 30,
+      "mean_rank": 5.666666666666667,
+      "rank_iqr": [
+        4.0,
+        7.0
+      ],
+      "top3_frequency": 0.16666666666666666
+    },
+    {
+      "model": "xgboost",
+      "feature": "last_hits_diff",
+      "refits": 30,
+      "mean_rank": 4.3,
+      "rank_iqr": [
+        3.0,
+        5.0
+      ],
+      "top3_frequency": 0.3333333333333333
+    },
+    {
+      "model": "xgboost",
+      "feature": "denies_diff",
+      "refits": 30,
+      "mean_rank": 6.8,
+      "rank_iqr": [
+        5.0,
+        8.0
+      ],
+      "top3_frequency": 0.06666666666666667
+    },
+    {
+      "model": "xgboost",
+      "feature": "level_diff",
+      "refits": 30,
+      "mean_rank": 8.833333333333334,
+      "rank_iqr": [
+        8.0,
+        10.0
+      ],
+      "top3_frequency": 0.0
+    },
+    {
+      "model": "xgboost",
+      "feature": "hp_diff",
+      "refits": 30,
+      "mean_rank": 5.366666666666666,
+      "rank_iqr": [
+        4.0,
+        6.0
+      ],
+      "top3_frequency": 0.13333333333333333
+    },
+    {
+      "model": "xgboost",
+      "feature": "is_alive_diff",
+      "refits": 30,
+      "mean_rank": 5.3,
+      "rank_iqr": [
+        3.0,
+        7.0
+      ],
+      "top3_frequency": 0.3333333333333333
+    },
+    {
+      "model": "xgboost",
+      "feature": "towers_alive_diff",
+      "refits": 30,
+      "mean_rank": 7.233333333333333,
+      "rank_iqr": [
+        6.0,
+        9.0
+      ],
+      "top3_frequency": 0.1
+    },
+    {
+      "model": "neural_network",
+      "feature": "net_worth_diff",
+      "refits": 30,
+      "mean_rank": 1.0666666666666667,
+      "rank_iqr": [
+        1.0,
+        1.0
+      ],
+      "top3_frequency": 1.0
+    },
+    {
+      "model": "neural_network",
+      "feature": "xp_diff",
+      "refits": 30,
+      "mean_rank": 2.6333333333333333,
+      "rank_iqr": [
+        2.0,
+        3.0
+      ],
+      "top3_frequency": 0.8666666666666667
+    },
+    {
+      "model": "neural_network",
+      "feature": "kills_diff",
+      "refits": 30,
+      "mean_rank": 5.433333333333334,
+      "rank_iqr": [
+        5.0,
+        6.0
+      ],
+      "top3_frequency": 0.03333333333333333
+    },
+    {
+      "model": "neural_network",
+      "feature": "assists_diff",
+      "refits": 30,
+      "mean_rank": 4.666666666666667,
+      "rank_iqr": [
+        4.0,
+        6.0
+      ],
+      "top3_frequency": 0.23333333333333334
+    },
+    {
+      "model": "neural_network",
+      "feature": "last_hits_diff",
+      "refits": 30,
+      "mean_rank": 3.933333333333333,
+      "rank_iqr": [
+        3.25,
+        5.0
+      ],
+      "top3_frequency": 0.26666666666666666
+    },
+    {
+      "model": "neural_network",
+      "feature": "denies_diff",
+      "refits": 30,
+      "mean_rank": 9.766666666666667,
+      "rank_iqr": [
+        10.0,
+        10.0
+      ],
+      "top3_frequency": 0.0
+    },
+    {
+      "model": "neural_network",
+      "feature": "level_diff",
+      "refits": 30,
+      "mean_rank": 8.2,
+      "rank_iqr": [
+        7.25,
+        9.0
+      ],
+      "top3_frequency": 0.0
+    },
+    {
+      "model": "neural_network",
+      "feature": "hp_diff",
+      "refits": 30,
+      "mean_rank": 8.633333333333333,
+      "rank_iqr": [
+        8.0,
+        9.0
+      ],
+      "top3_frequency": 0.0
+    },
+    {
+      "model": "neural_network",
+      "feature": "is_alive_diff",
+      "refits": 30,
+      "mean_rank": 7.066666666666666,
+      "rank_iqr": [
+        7.0,
+        8.0
+      ],
+      "top3_frequency": 0.0
+    },
+    {
+      "model": "neural_network",
+      "feature": "towers_alive_diff",
+      "refits": 30,
+      "mean_rank": 3.6,
+      "rank_iqr": [
+        3.0,
+        4.0
+      ],
+      "top3_frequency": 0.6
+    }
+  ],
+  "movement": {
+    "clock_alignment_version": "combat_event_anchor_v2",
+    "window_seconds": [
+      0,
+      1200
+    ],
+    "native_sampling": "approximately one second with preceding combat event match clock estimates",
+    "coarse_interval_seconds": 60,
+    "offsets_seconds": [
+      0,
+      15,
+      30,
+      45
+    ],
+    "speed_multiplier": 1.75,
+    "jump_slack_coordinate_units": 64,
+    "max_gap_seconds": 1.2,
+    "matched_player_offset_rows": 266680,
+    "unique_development_matches": 6667,
+    "summaries": [
+      {
+        "offset_seconds": 0,
+        "matches": 1374,
+        "median_retained_fraction": 0.27903928329643557,
+        "retained_fraction_iqr": [
+          0.21629100269537752,
+          0.34139679210159657
+        ],
+        "median_95_match_bootstrap_interval": [
+          0.2724019858838456,
+          0.2836885869822366
+        ],
+        "matched_intervals": 9436
+      },
+      {
+        "offset_seconds": 15,
+        "matches": 1337,
+        "median_retained_fraction": 0.26637958418097835,
+        "retained_fraction_iqr": [
+          0.20304118963082707,
+          0.33502543478157526
+        ],
+        "median_95_match_bootstrap_interval": [
+          0.2594611820574698,
+          0.27335121812868296
+        ],
+        "matched_intervals": 9455
+      },
+      {
+        "offset_seconds": 30,
+        "matches": 1330,
+        "median_retained_fraction": 0.2620472931454312,
+        "retained_fraction_iqr": [
+          0.20182972625715942,
+          0.31973694468467473
+        ],
+        "median_95_match_bootstrap_interval": [
+          0.255739644285487,
+          0.2671236805698109
+        ],
+        "matched_intervals": 9327
+      },
+      {
+        "offset_seconds": 45,
+        "matches": 1371,
+        "median_retained_fraction": 0.2607645241283095,
+        "retained_fraction_iqr": [
+          0.2043245860426875,
+          0.32663159354141896
+        ],
+        "median_95_match_bootstrap_interval": [
+          0.25495229180350076,
+          0.26648243668470856
+        ],
+        "matched_intervals": 9602
+      }
+    ],
+    "interpretation": "Operational sampled path displacement on matched continuous segments, not true walking distance or causal influence on winning",
+    "limits": [
+      "Death and gaps split segments",
+      "The speed based jump rule may exclude genuine rapid movement and miss some ability movement",
+      "Native sampling is not continuous ground truth",
+      "Event anchored clocks have finite sampling resolution",
+      "No claim about the magnitude in League of Legends",
+      "Offsets are correlated within matches",
+      "Only training and validation matches active at the window end; no final test outcomes used"
+    ],
+    "common_offset_matches": 559,
+    "common_offset_medians": {
+      "0": 0.2796406915484536,
+      "15": 0.2634832448645023,
+      "30": 0.2628533341229399,
+      "45": 0.25627987486890147
+    }
+  },
+  "runtime": {
+    "python": "3.11.18",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch": "2.6.0+cu126",
+    "torch_cuda_build": "12.6",
+    "numpy": "2.4.6",
+    "sklearn": "1.9.1",
+    "xgboost": "3.4.2",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_memory_bytes": 25769279488,
+    "cuda_probe_passed": true,
+    "neural_device": "cuda",
+    "cpu_threads_for_classical_models": 4
+  },
+  "preparation": {
+    "features": [
+      "net_worth_diff",
+      "xp_diff",
+      "kills_diff",
+      "assists_diff",
+      "last_hits_diff",
+      "denies_diff",
+      "level_diff",
+      "hp_diff",
+      "is_alive_diff",
+      "towers_alive_diff"
+    ],
+    "feature_units": "team totals except alive structure counts; Radiant minus Dire",
+    "rows_before_complete_feature_filter": 21040,
+    "rows_after": 21040,
+    "rows_by_horizon_partition": [
+      {
+        "horizon_seconds": 600,
+        "partition": "calibration",
+        "matches": 443
+      },
+      {
+        "horizon_seconds": 600,
+        "partition": "test",
+        "matches": 1745
+      },
+      {
+        "horizon_seconds": 600,
+        "partition": "train",
+        "matches": 5243
+      },
+      {
+        "horizon_seconds": 600,
+        "partition": "validation",
+        "matches": 1281
+      },
+      {
+        "horizon_seconds": 1200,
+        "partition": "calibration",
+        "matches": 442
+      },
+      {
+        "horizon_seconds": 1200,
+        "partition": "test",
+        "matches": 1729
+      },
+      {
+        "horizon_seconds": 1200,
+        "partition": "train",
+        "matches": 5095
+      },
+      {
+        "horizon_seconds": 1200,
+        "partition": "validation",
+        "matches": 1290
+      },
+      {
+        "horizon_seconds": 1800,
+        "partition": "calibration",
+        "matches": 177
+      },
+      {
+        "horizon_seconds": 1800,
+        "partition": "test",
+        "matches": 758
+      },
+      {
+        "horizon_seconds": 1800,
+        "partition": "train",
+        "matches": 2251
+      },
+      {
+        "horizon_seconds": 1800,
+        "partition": "validation",
+        "matches": 586
+      }
+    ],
+    "max_snapshot_age_seconds": 1.2,
+    "target": "radiant_win",
+    "source_tick_shards": 939,
+    "source_building_shards": 939,
+    "notes": [
+      "No future values or final statistics used as inputs",
+      "Each match at one horizon has ten observed player slots",
+      "Later horizons describe matches still observed then",
+      "No ward or item build claims are made"
+    ]
+  },
+  "integrity": {
+    "metadata_draft_complete_checks": 9071,
+    "metadata_draft_mismatches": 0,
+    "metadata_draft_checks_unavailable": 314,
+    "ancient_event_outcome_checks": 9385,
+    "ancient_event_outcome_mismatches": 0,
+    "ancient_timestamp_minus_duration_quantiles_seconds": [
+      -0.03340000000002874,
+      0.20010000000002037,
+      0.46669999999994616,
+      0.7001999999999953,
+      0.9668000000001484
+    ],
+    "snapshots_checked": 21040,
+    "no_completed_match_snapshots": true,
+    "all_match_observations_share_partition": true,
+    "partition_fingerprint_unchanged": true,
+    "unit_tests": [
+      "Future state and anchor state excluded from temporal extraction",
+      "Known corner path lengths recovered",
+      "Death boundary never crossed"
+    ],
+    "limits": [
+      "Consistency checks compare fields, not independent ground truth",
+      "Incomplete draft arrays are explicitly counted",
+      "Event anchored state timing remains sampled"
+    ]
+  },
+  "protocol": {
+    "status": "final evaluation complete; do not tune on these results",
+    "horizons_seconds": [
+      600,
+      1200,
+      1800
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "partition_counts": {
+      "train": 5620,
+      "test": 1890,
+      "validation": 1390,
+      "calibration": 485
+    },
+    "date_boundaries": [
+      "2025-08-20 00:00:00+00:00",
+      "2025-09-29 00:00:00+00:00",
+      "2025-10-14 00:00:00+00:00"
+    ],
+    "partition_sha256": "e8289bea726c74ec18e6517f6398cc37482182f833f5e6b1777aff1c7ccbe6c4",
+    "feature_rule": "Radiant minus Dire observed totals",
+    "snapshot_tolerance_seconds": 1.2,
+    "selection": "latest observation no later than horizon",
+    "series_limitation": "No series IDs; complete UTC dates grouped; teams may recur",
+    "excluded_inputs": [
+      "eventual duration",
+      "final scores",
+      "final statistics",
+      "retrospective roles",
+      "match identifiers",
+      "outcomes"
+    ],
+    "planned_models": [
+      "logistic",
+      "random_forest",
+      "xgboost",
+      "neural_network"
+    ],
+    "planned_primary_metrics": [
+      "ROC AUC",
+      "accuracy",
+      "Brier score",
+      "log loss"
+    ],
+    "final_test_policy": "No final test predictions until development and protocol freeze are complete",
+    "clock_alignment_version": "combat_event_anchor_v2",
+    "temporal_rule": "Match clock from combat events; preceding raw tick states; active matches only",
+    "team_alignment_version": "metadata_draft_identity_v3",
+    "team_rule": "Verified hero name to metadata draft; never infer side from replay slot order",
+    "snapshot_age_bound_seconds": 2.4,
+    "analysis_frozen": true,
+    "primary_horizon_seconds": 1200,
+    "primary_comparison": "logistic versus neural_network; raw probabilities; seed averaged predictions for paired intervals",
+    "calibration_reporting": "Always report raw and temperature adjusted probabilities; no choice using final outcomes",
+    "bootstrap_reporting": "Match bootstrap per model; paired match and UTC day block bootstrap for primary comparison; descriptive intervals conditional on data",
+    "matched_cohort_reporting": "Also report the neural model on common final matches observed at all horizons",
+    "conditional_hero_extension": "Deferred: retrospective role timing provenance and generic inventory values prevent a defensible prospective extension in this study",
+    "model_settings": {
+      "logistic": {
+        "C": 1,
+        "max_iter": 2000
+      },
+      "random_forest": {
+        "trees": 300,
+        "max_depth": 8,
+        "min_samples_leaf": 10
+      },
+      "xgboost": {
+        "trees": 400,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample": 0.8,
+        "device": "cuda"
+      },
+      "neural_network": {
+        "hidden": [
+          64,
+          64
+        ],
+        "dropout": 0.5,
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 1e-05,
+        "max_epochs": 200,
+        "patience": 25,
+        "batch_size": 512
+      }
+    },
+    "code_sha256": {
+      "src\\dota_data.py": "f86124f2248e62d12acecfc46cc251ff99eddcc468e3d5320208aecc912bca5b",
+      "src\\dota_models.py": "17f163ea543a4f2c0e8fb18ba3c05889b3f646dde8595b161b8880c0026bcc93",
+      "src\\run_dota_study.py": "c6ba7e663c48afb0f98c74d3146d7e130dd521eedac36f1c77edf93cd921a70d"
+    }
+  },
+  "limits": [
+    "Fixed model bootstrap, training seed spread and bootstrap refitting describe different uncertainties",
+    "UTC day blocks are a dependence sensitivity check, not verified tournament series",
+    "No causal or novelty claim",
+    "Hero context extension deferred for provenance and completeness reasons"
+  ]
+}

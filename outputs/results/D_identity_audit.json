@@ -1,0 +1,10 @@
+{
+  "version": "metadata_draft_identity_v3",
+  "snapshot_groups_before": 21525,
+  "snapshot_groups_valid": 21462,
+  "unknown_name_counts": {
+    "": 157
+  },
+  "reason": "Observed replay slot order does not consistently match metadata team order; map verified hero identities to the metadata draft",
+  "excluded": "Groups without ten distinct identified draft heroes and five per side"
+}

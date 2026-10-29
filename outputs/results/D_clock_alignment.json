@@ -1,0 +1,18 @@
+{
+  "version": "combat_event_anchor_v2",
+  "anchors": 21525,
+  "matches": 9338,
+  "event_shards": 939,
+  "sampled_replay_minus_match_seconds_quantiles": [
+    -0.033999999999650754,
+    -3.000000000952241e-05,
+    0.06666333333333796,
+    0.3998666666666395,
+    153.33339999999998,
+    11679.832893333332
+  ],
+  "anchor_max_age_match_seconds": 1.2,
+  "state_rule": "raw tick strictly before latest safe event tick, within 36 replay ticks",
+  "native_tick_rate": 30,
+  "limitation": "Event anchored state timing has finite native resolution; it is not exact continuous game state"
+}

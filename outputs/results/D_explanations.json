@@ -1,0 +1,4064 @@
+{
+  "shap_version": "0.51.0",
+  "features": [
+    "net_worth_diff",
+    "xp_diff",
+    "kills_diff",
+    "assists_diff",
+    "last_hits_diff",
+    "denies_diff",
+    "level_diff",
+    "hp_diff",
+    "is_alive_diff",
+    "towers_alive_diff"
+  ],
+  "records": [
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "seed": 0,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.3227713100678561,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.10797763483170449,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.01577524536298991,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.0672392416748177,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.09831191256012606,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.017232141903479055,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.0012843635379331218,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.002019424041860569,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.0007134309020613699,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.036569859541764616,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "seed": 1,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.3227713100678561,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.10797763483170449,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.01577524536298991,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.0672392416748177,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.09831191256012606,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.017232141903479055,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.0012843635379331218,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.002019424041860569,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.0007134309020613699,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.036569859541764616,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "logistic",
+      "seed": 2,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.3227713100678561,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.10797763483170449,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.01577524536298991,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.0672392416748177,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.09831191256012606,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.017232141903479055,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.0012843635379331218,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.002019424041860569,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.0007134309020613699,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.036569859541764616,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "seed": 0,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.06463622511559354,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.030433361614162574,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.013609533932357643,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.007412336611653511,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.025816439030042212,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.005921786363485407,
+          "rank": 7.0,
+          "rank_95_interval": [
+            7.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.006959956965832875,
+          "rank": 6.0,
+          "rank_95_interval": [
+            5.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.0052206430747735386,
+          "rank": 8.0,
+          "rank_95_interval": [
+            7.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.0025651836864910987,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.004399071708455396,
+          "rank": 9.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "seed": 1,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.06486350835567112,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.030643100943680945,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.015359792045335191,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.007039898589930593,
+          "rank": 6.0,
+          "rank_95_interval": [
+            5.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.026021801042341114,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.005847372760243885,
+          "rank": 7.0,
+          "rank_95_interval": [
+            7.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.007497105948689346,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.004588091526681985,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.0020751613468524,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.0038329912865155413,
+          "rank": 9.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "random_forest",
+      "seed": 2,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.06531317186548091,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.026434772140231114,
+          "rank": 3.0,
+          "rank_95_interval": [
+            2.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.014297148184880704,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.007703127110226311,
+          "rank": 6.0,
+          "rank_95_interval": [
+            5.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.02844479733286162,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.0059084411898153305,
+          "rank": 7.0,
+          "rank_95_interval": [
+            7.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.008810598440446071,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.005041629068224876,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.0019661755303625877,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.003685653611177793,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "seed": 0,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.3851018951030527,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.12460015930234469,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 0.999
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.06423718583846139,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.08355835187958505,
+          "rank": 5.0,
+          "rank_95_interval": [
+            4.0,
+            6.0
+          ],
+          "top3_frequency": 0.001
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.16711291969676445,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.08850293502687023,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.044266666634223295,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.07404035834600187,
+          "rank": 6.0,
+          "rank_95_interval": [
+            5.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.02168096217466342,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.03199302823903416,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "seed": 1,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.37695116840309595,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.12059334734603988,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 0.997
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.06267291565765731,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.0703109109014548,
+          "rank": 6.0,
+          "rank_95_interval": [
+            5.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.15406879946113472,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.094670914692351,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.003
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.046767338325821584,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.07851146446884316,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.02897189303113379,
+          "rank": 10.0,
+          "rank_95_interval": [
+            9.975000000000001,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.038830445942290126,
+          "rank": 9.0,
+          "rank_95_interval": [
+            8.0,
+            9.024999999999977
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "xgboost",
+      "seed": 2,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.34820563036132945,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.14891246132776104,
+          "rank": 3.0,
+          "rank_95_interval": [
+            2.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.07726934474365255,
+          "rank": 6.0,
+          "rank_95_interval": [
+            5.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.07847883404744849,
+          "rank": 5.0,
+          "rank_95_interval": [
+            4.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.1621938626741084,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.08973790716260055,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.03876381316233335,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.07602458998334782,
+          "rank": 7.0,
+          "rank_95_interval": [
+            5.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.030593865877929893,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.030593042079406274,
+          "rank": 10.0,
+          "rank_95_interval": [
+            8.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "seed": 0,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.1274910126235227,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.10172956974497538,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.06690240863213148,
+          "rank": 5.0,
+          "rank_95_interval": [
+            4.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.06710709516846691,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.11856745079239772,
+          "rank": 2.0,
+          "rank_95_interval": [
+            1.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.011185950308629344,
+          "rank": 10.0,
+          "rank_95_interval": [
+            9.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.03646874213973206,
+          "rank": 7.0,
+          "rank_95_interval": [
+            7.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.01192394185767398,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.017246884736550783,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.05080363427987322,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "seed": 1,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.11365706325022984,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.07410379325415306,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.09809690914380553,
+          "rank": 3.0,
+          "rank_95_interval": [
+            2.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.04677844747970994,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.07334789123456176,
+          "rank": 5.0,
+          "rank_95_interval": [
+            4.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.04196203106374696,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.10089636254178913,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.03551787188848721,
+          "rank": 9.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.024477020244887626,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.03788567505489482,
+          "rank": 8.0,
+          "rank_95_interval": [
+            7.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 600,
+      "model": "neural_network",
+      "seed": 2,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.14430007986584314,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.08201760021302107,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            4.0
+          ],
+          "top3_frequency": 0.947
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.03629591000014898,
+          "rank": 7.0,
+          "rank_95_interval": [
+            7.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.07493730160138057,
+          "rank": 4.0,
+          "rank_95_interval": [
+            3.0,
+            4.0
+          ],
+          "top3_frequency": 0.053
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.11598195000760825,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.009319852236529869,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.0406191765348467,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.02020606581680795,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.017324077574357943,
+          "rank": 9.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.056387052612990374,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "seed": 0,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.8600825371135912,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.09906804906089639,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 0.999
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.006479874943731852,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.04660106006096817,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.04179041106087392,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.006398894135236522,
+          "rank": 10.0,
+          "rank_95_interval": [
+            9.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.03222115482790563,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.061650340760964956,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.16835365663320323,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.08101617407072531,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.001
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "seed": 1,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.8600825371135912,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.09906804906089639,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 0.999
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.006479874943731852,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.04660106006096817,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.04179041106087392,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.006398894135236522,
+          "rank": 10.0,
+          "rank_95_interval": [
+            9.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.03222115482790563,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.061650340760964956,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.16835365663320323,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.08101617407072531,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.001
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "logistic",
+      "seed": 2,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.8600825371135912,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.09906804906089639,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 0.999
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.006479874943731852,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.04660106006096817,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.04179041106087392,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.006398894135236522,
+          "rank": 10.0,
+          "rank_95_interval": [
+            9.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.03222115482790563,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.061650340760964956,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.16835365663320323,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.08101617407072531,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.001
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "seed": 0,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.10510841024316682,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.05167277493263152,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.016107453888632314,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.010962119175873659,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.007365472254889441,
+          "rank": 9.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.0034254429606224712,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.009229978398474493,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.008051805617401868,
+          "rank": 8.0,
+          "rank_95_interval": [
+            7.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.008935044789369073,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.012898704778381467,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "seed": 1,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.10543088810543211,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.04913368579507157,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.016711701298879132,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.010347246624168017,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.007280502392818494,
+          "rank": 9.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.0034476764798760835,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.009157644629437238,
+          "rank": 6.0,
+          "rank_95_interval": [
+            5.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.008330470656374711,
+          "rank": 8.0,
+          "rank_95_interval": [
+            6.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.008834319849346788,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.012178892483533148,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "random_forest",
+      "seed": 2,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.10498707918423043,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.04741938345011659,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.01708082258019101,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.011659099562408515,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.007940569543533255,
+          "rank": 9.0,
+          "rank_95_interval": [
+            7.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.003327400363980909,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.008996982465789116,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.008641347601598931,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.008436027360045374,
+          "rank": 8.0,
+          "rank_95_interval": [
+            6.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.013405052887728225,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "seed": 0,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.8500332860297943,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.20037674215344836,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.06563017928097992,
+          "rank": 9.0,
+          "rank_95_interval": [
+            8.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.07373786987293762,
+          "rank": 8.0,
+          "rank_95_interval": [
+            6.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.10220899586613008,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.08593718214219948,
+          "rank": 6.0,
+          "rank_95_interval": [
+            5.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.06485366793528158,
+          "rank": 10.0,
+          "rank_95_interval": [
+            8.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.07593461431686066,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.15754031721058226,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.08954131281329403,
+          "rank": 5.0,
+          "rank_95_interval": [
+            4.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "seed": 1,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.8876248860168037,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.17102243029838604,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.06697845273120251,
+          "rank": 9.0,
+          "rank_95_interval": [
+            7.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.07073767254385732,
+          "rank": 8.0,
+          "rank_95_interval": [
+            7.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.09879094685051193,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.0847631262341908,
+          "rank": 6.0,
+          "rank_95_interval": [
+            5.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.05325674742440256,
+          "rank": 10.0,
+          "rank_95_interval": [
+            9.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.08394208309677609,
+          "rank": 7.0,
+          "rank_95_interval": [
+            5.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.145927033343078,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.09365996720901304,
+          "rank": 5.0,
+          "rank_95_interval": [
+            4.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "xgboost",
+      "seed": 2,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.8815423531220858,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.17717156256333233,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.06372950514248998,
+          "rank": 9.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.0770339969396403,
+          "rank": 8.0,
+          "rank_95_interval": [
+            6.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.09745875180409769,
+          "rank": 5.0,
+          "rank_95_interval": [
+            4.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.07964984887261828,
+          "rank": 7.0,
+          "rank_95_interval": [
+            5.975000000000001,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.04640903146962527,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.08143494398200524,
+          "rank": 6.0,
+          "rank_95_interval": [
+            5.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.1492948860393426,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.09903631159057369,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "seed": 0,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.30912453521523275,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.22760549510530836,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.14728075781476946,
+          "rank": 5.0,
+          "rank_95_interval": [
+            4.0,
+            6.0
+          ],
+          "top3_frequency": 0.001
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.14339405114606052,
+          "rank": 6.0,
+          "rank_95_interval": [
+            5.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.16547415426248335,
+          "rank": 4.0,
+          "rank_95_interval": [
+            3.0,
+            5.0
+          ],
+          "top3_frequency": 0.16
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.013013395585680598,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.041965594943405904,
+          "rank": 9.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.04408823608014245,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.10252850757888154,
+          "rank": 7.0,
+          "rank_95_interval": [
+            7.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.17742788088980888,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            4.0
+          ],
+          "top3_frequency": 0.839
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "seed": 1,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.45529405238630716,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.2323139062473274,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.128396167048777,
+          "rank": 6.0,
+          "rank_95_interval": [
+            5.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.11543833577934492,
+          "rank": 7.0,
+          "rank_95_interval": [
+            7.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.13782145188929462,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.0318242992470914,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.038250245434937824,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.066856857543371,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.18146740050633525,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            4.0
+          ],
+          "top3_frequency": 0.875
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.164100664180296,
+          "rank": 4.0,
+          "rank_95_interval": [
+            3.0,
+            4.0
+          ],
+          "top3_frequency": 0.125
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1200,
+      "model": "neural_network",
+      "seed": 2,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.27353870588012796,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.18253005433780345,
+          "rank": 4.0,
+          "rank_95_interval": [
+            3.0,
+            4.0
+          ],
+          "top3_frequency": 0.345
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.09542175076649073,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.1869610702369755,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            4.0
+          ],
+          "top3_frequency": 0.652
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.15993703017898042,
+          "rank": 5.0,
+          "rank_95_interval": [
+            4.0,
+            5.0
+          ],
+          "top3_frequency": 0.003
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.015593682969097244,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.0672046272584339,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.056886756274366235,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.09940248153043285,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.23333465965333744,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "seed": 0,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 2.041900897619124,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.4030084460545692,
+          "rank": 4.0,
+          "rank_95_interval": [
+            3.0,
+            5.0
+          ],
+          "top3_frequency": 0.364
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.4065457196567261,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            5.0
+          ],
+          "top3_frequency": 0.544
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.027921495549889458,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.14252662527749504,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.008450389554449335,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.018840613319329298,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.07097062594919146,
+          "rank": 7.0,
+          "rank_95_interval": [
+            7.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.37792683964088136,
+          "rank": 5.0,
+          "rank_95_interval": [
+            3.0,
+            5.0
+          ],
+          "top3_frequency": 0.092
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.4995404700118429,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "seed": 1,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 2.041900897619124,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.4030084460545692,
+          "rank": 4.0,
+          "rank_95_interval": [
+            3.0,
+            5.0
+          ],
+          "top3_frequency": 0.364
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.4065457196567261,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            5.0
+          ],
+          "top3_frequency": 0.544
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.027921495549889458,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.14252662527749504,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.008450389554449335,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.018840613319329298,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.07097062594919146,
+          "rank": 7.0,
+          "rank_95_interval": [
+            7.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.37792683964088136,
+          "rank": 5.0,
+          "rank_95_interval": [
+            3.0,
+            5.0
+          ],
+          "top3_frequency": 0.092
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.4995404700118429,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "logistic",
+      "seed": 2,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 2.041900897619124,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.4030084460545692,
+          "rank": 4.0,
+          "rank_95_interval": [
+            3.0,
+            5.0
+          ],
+          "top3_frequency": 0.364
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.4065457196567261,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            5.0
+          ],
+          "top3_frequency": 0.544
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.027921495549889458,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.14252662527749504,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.008450389554449335,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.018840613319329298,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.07097062594919146,
+          "rank": 7.0,
+          "rank_95_interval": [
+            7.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.37792683964088136,
+          "rank": 5.0,
+          "rank_95_interval": [
+            3.0,
+            5.0
+          ],
+          "top3_frequency": 0.092
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.4995404700118429,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "seed": 0,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.19897770623980143,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.07567120990422949,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.008973139140860837,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.016710776610556536,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.006058568099544685,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.0033733924077914597,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.015034701169346434,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.02228138948704785,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.013510802604830938,
+          "rank": 7.0,
+          "rank_95_interval": [
+            7.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.047500974368914047,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "seed": 1,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.20168027559725968,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.07540021549034845,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.008864240473856866,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.01505752283010289,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.005283515199309349,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.0034797540322212984,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.014259084905784716,
+          "rank": 6.0,
+          "rank_95_interval": [
+            5.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.022745220880251073,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.013534654186517324,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.047038723773562156,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "random_forest",
+      "seed": 2,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 0.19925696562967352,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.06726329166035783,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.01188002751865519,
+          "rank": 8.0,
+          "rank_95_interval": [
+            7.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.015954199006286095,
+          "rank": 6.0,
+          "rank_95_interval": [
+            5.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.004752165996628761,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.0031928989462376624,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.01641320081050671,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.024376539143329743,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.013079576056332105,
+          "rank": 7.0,
+          "rank_95_interval": [
+            7.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.05037913239638458,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "seed": 0,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 1.9427385350803252,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.5902226076148507,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.33336929089495326,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.18933445802941762,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.2343113921493627,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.18066159196582987,
+          "rank": 9.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.11690081736502833,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.2645755475809217,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.322908584704237,
+          "rank": 5.0,
+          "rank_95_interval": [
+            4.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.5671561318993845,
+          "rank": 3.0,
+          "rank_95_interval": [
+            2.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "seed": 1,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 2.0095376957767463,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.4789565324885423,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.3008818051000226,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.18070735963041784,
+          "rank": 9.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.21375195242298872,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.975000000000001,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.19317923881643217,
+          "rank": 8.0,
+          "rank_95_interval": [
+            7.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.12170993907331251,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.24700220634921521,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            6.024999999999977
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.36024304311284006,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.5301986178277449,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "xgboost",
+      "seed": 2,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 1.9468879827932142,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.5625858122832721,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.32042389360763934,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.21237656475914335,
+          "rank": 8.0,
+          "rank_95_interval": [
+            7.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.22579415005830228,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.1880829484518518,
+          "rank": 9.0,
+          "rank_95_interval": [
+            8.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.11798041322410313,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.24750781282341094,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.3519899880473041,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.5329421483719798,
+          "rank": 3.0,
+          "rank_95_interval": [
+            2.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "seed": 0,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 1.7340938453598937,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.7659748928854242,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            2.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.3818267895094323,
+          "rank": 5.0,
+          "rank_95_interval": [
+            4.975000000000001,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.09797333320750568,
+          "rank": 8.0,
+          "rank_95_interval": [
+            7.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.15771904101802647,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.054007200932801425,
+          "rank": 10.0,
+          "rank_95_interval": [
+            10.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.07015449122718564,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            9.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.10905197471129213,
+          "rank": 7.0,
+          "rank_95_interval": [
+            7.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.43310560150166566,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.024999999999977
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.6604950893870409,
+          "rank": 3.0,
+          "rank_95_interval": [
+            3.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "seed": 1,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 1.6396162264245504,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.7420543825173809,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.4010498521129193,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.11035004166171802,
+          "rank": 7.0,
+          "rank_95_interval": [
+            7.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.16015508207124185,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            6.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.055544432459328164,
+          "rank": 10.0,
+          "rank_95_interval": [
+            9.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.05674943968074331,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.08734425051943617,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.4865431008693122,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.7143649632562301,
+          "rank": 3.0,
+          "rank_95_interval": [
+            2.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        }
+      ]
+    },
+    {
+      "horizon_seconds": 1800,
+      "model": "neural_network",
+      "seed": 2,
+      "explained_matches": 256,
+      "background_matches": 64,
+      "ranking": [
+        {
+          "feature": "net_worth_diff",
+          "mean_absolute_shap": 1.6384895194059936,
+          "rank": 1.0,
+          "rank_95_interval": [
+            1.0,
+            1.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "xp_diff",
+          "mean_absolute_shap": 0.6754263073726179,
+          "rank": 3.0,
+          "rank_95_interval": [
+            2.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        },
+        {
+          "feature": "kills_diff",
+          "mean_absolute_shap": 0.3554147361755895,
+          "rank": 5.0,
+          "rank_95_interval": [
+            5.0,
+            5.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "assists_diff",
+          "mean_absolute_shap": 0.10276277412890522,
+          "rank": 8.0,
+          "rank_95_interval": [
+            8.0,
+            8.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "last_hits_diff",
+          "mean_absolute_shap": 0.12223423312411796,
+          "rank": 7.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "denies_diff",
+          "mean_absolute_shap": 0.03728560425406613,
+          "rank": 10.0,
+          "rank_95_interval": [
+            9.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "level_diff",
+          "mean_absolute_shap": 0.04323768011136053,
+          "rank": 9.0,
+          "rank_95_interval": [
+            9.0,
+            10.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "hp_diff",
+          "mean_absolute_shap": 0.13821364850400641,
+          "rank": 6.0,
+          "rank_95_interval": [
+            6.0,
+            7.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "is_alive_diff",
+          "mean_absolute_shap": 0.42465657713728433,
+          "rank": 4.0,
+          "rank_95_interval": [
+            4.0,
+            4.0
+          ],
+          "top3_frequency": 0.0
+        },
+        {
+          "feature": "towers_alive_diff",
+          "mean_absolute_shap": 0.7220699133122253,
+          "rank": 2.0,
+          "rank_95_interval": [
+            2.0,
+            3.0
+          ],
+          "top3_frequency": 1.0
+        }
+      ]
+    }
+  ],
+  "model_rank_agreement": [
+    {
+      "horizon_seconds": 600,
+      "left": "logistic",
+      "right": "random_forest",
+      "spearman_rank_agreement": 0.7212121212121211
+    },
+    {
+      "horizon_seconds": 600,
+      "left": "logistic",
+      "right": "xgboost",
+      "spearman_rank_agreement": 0.8303030303030302
+    },
+    {
+      "horizon_seconds": 600,
+      "left": "logistic",
+      "right": "neural_network",
+      "spearman_rank_agreement": 0.7987953376480265
+    },
+    {
+      "horizon_seconds": 600,
+      "left": "random_forest",
+      "right": "xgboost",
+      "spearman_rank_agreement": 0.7939393939393938
+    },
+    {
+      "horizon_seconds": 600,
+      "left": "random_forest",
+      "right": "neural_network",
+      "spearman_rank_agreement": 0.884162778312701
+    },
+    {
+      "horizon_seconds": 600,
+      "left": "xgboost",
+      "right": "neural_network",
+      "spearman_rank_agreement": 0.7073302226501608
+    },
+    {
+      "horizon_seconds": 1200,
+      "left": "logistic",
+      "right": "random_forest",
+      "spearman_rank_agreement": 0.5151515151515151
+    },
+    {
+      "horizon_seconds": 1200,
+      "left": "logistic",
+      "right": "xgboost",
+      "spearman_rank_agreement": 0.7575757575757575
+    },
+    {
+      "horizon_seconds": 1200,
+      "left": "logistic",
+      "right": "neural_network",
+      "spearman_rank_agreement": 0.772040040473682
+    },
+    {
+      "horizon_seconds": 1200,
+      "left": "random_forest",
+      "right": "xgboost",
+      "spearman_rank_agreement": 0.2727272727272727
+    },
+    {
+      "horizon_seconds": 1200,
+      "left": "random_forest",
+      "right": "neural_network",
+      "spearman_rank_agreement": 0.6747751534848716
+    },
+    {
+      "horizon_seconds": 1200,
+      "left": "xgboost",
+      "right": "neural_network",
+      "spearman_rank_agreement": 0.7659609850368815
+    },
+    {
+      "horizon_seconds": 1800,
+      "left": "logistic",
+      "right": "random_forest",
+      "spearman_rank_agreement": 0.5757575757575757
+    },
+    {
+      "horizon_seconds": 1800,
+      "left": "logistic",
+      "right": "xgboost",
+      "spearman_rank_agreement": 0.9151515151515152
+    },
+    {
+      "horizon_seconds": 1800,
+      "left": "logistic",
+      "right": "neural_network",
+      "spearman_rank_agreement": 0.9393939393939393
+    },
+    {
+      "horizon_seconds": 1800,
+      "left": "random_forest",
+      "right": "xgboost",
+      "spearman_rank_agreement": 0.6848484848484848
+    },
+    {
+      "horizon_seconds": 1800,
+      "left": "random_forest",
+      "right": "neural_network",
+      "spearman_rank_agreement": 0.6727272727272726
+    },
+    {
+      "horizon_seconds": 1800,
+      "left": "xgboost",
+      "right": "neural_network",
+      "spearman_rank_agreement": 0.9757575757575757
+    }
+  ],
+  "bootstrap_draws": 1000,
+  "output_units": {
+    "logistic": "log odds",
+    "xgboost": "log odds",
+    "neural_network": "logits",
+    "random_forest": "probability"
+  },
+  "assumptions": [
+    "Interventional reference background; correlated features require caution",
+    "DeepExplainer approximates nonlinear neural attributions",
+    "Absolute magnitudes are not directly compared across model output units",
+    "Fixed model bootstrap intervals measure explained match sampling uncertainty, not refitting uncertainty"
+  ]
+}

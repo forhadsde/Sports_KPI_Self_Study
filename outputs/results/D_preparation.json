@@ -1,0 +1,89 @@
+{
+  "features": [
+    "net_worth_diff",
+    "xp_diff",
+    "kills_diff",
+    "assists_diff",
+    "last_hits_diff",
+    "denies_diff",
+    "level_diff",
+    "hp_diff",
+    "is_alive_diff",
+    "towers_alive_diff"
+  ],
+  "feature_units": "team totals except alive structure counts; Radiant minus Dire",
+  "rows_before_complete_feature_filter": 21040,
+  "rows_after": 21040,
+  "rows_by_horizon_partition": [
+    {
+      "horizon_seconds": 600,
+      "partition": "calibration",
+      "matches": 443
+    },
+    {
+      "horizon_seconds": 600,
+      "partition": "test",
+      "matches": 1745
+    },
+    {
+      "horizon_seconds": 600,
+      "partition": "train",
+      "matches": 5243
+    },
+    {
+      "horizon_seconds": 600,
+      "partition": "validation",
+      "matches": 1281
+    },
+    {
+      "horizon_seconds": 1200,
+      "partition": "calibration",
+      "matches": 442
+    },
+    {
+      "horizon_seconds": 1200,
+      "partition": "test",
+      "matches": 1729
+    },
+    {
+      "horizon_seconds": 1200,
+      "partition": "train",
+      "matches": 5095
+    },
+    {
+      "horizon_seconds": 1200,
+      "partition": "validation",
+      "matches": 1290
+    },
+    {
+      "horizon_seconds": 1800,
+      "partition": "calibration",
+      "matches": 177
+    },
+    {
+      "horizon_seconds": 1800,
+      "partition": "test",
+      "matches": 758
+    },
+    {
+      "horizon_seconds": 1800,
+      "partition": "train",
+      "matches": 2251
+    },
+    {
+      "horizon_seconds": 1800,
+      "partition": "validation",
+      "matches": 586
+    }
+  ],
+  "max_snapshot_age_seconds": 1.2,
+  "target": "radiant_win",
+  "source_tick_shards": 939,
+  "source_building_shards": 939,
+  "notes": [
+    "No future values or final statistics used as inputs",
+    "Each match at one horizon has ten observed player slots",
+    "Later horizons describe matches still observed then",
+    "No ward or item build claims are made"
+  ]
+}
