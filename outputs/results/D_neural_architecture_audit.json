@@ -1,0 +1,33 @@
+{
+  "source": "Fitted primary neural reference, seed zero",
+  "stage": "Post study architecture description",
+  "input_features": 10,
+  "hidden_units": [
+    64,
+    64
+  ],
+  "output_units": 1,
+  "total_hidden_neurons": 128,
+  "trainable_parameters": 4929,
+  "activation": "ReLU in hidden layers; sigmoid applied to the output logit for probability inference",
+  "dropout_probabilities": [
+    0.5,
+    0.5
+  ],
+  "feature_names": [
+    "net_worth_diff",
+    "xp_diff",
+    "kills_diff",
+    "assists_diff",
+    "last_hits_diff",
+    "denies_diff",
+    "level_diff",
+    "hp_diff",
+    "is_alive_diff",
+    "towers_alive_diff"
+  ],
+  "architecture_search_performed": false,
+  "note": "The width is a fixed reference choice, not an empirically established optimum. No retraining or final prediction evaluation was performed by this audit.",
+  "selected_epoch": 19,
+  "epochs_run": 44
+}

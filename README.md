@@ -6,6 +6,12 @@ I adapted the win prediction and KPI explanation approach of **Dr Fazilat Hojaji
 
 The completed experiments compare models, probability calibration and explanation stability, and examine movement sampling as a separate measurement problem. Rugby, video detection, vision control and the hero context extension are outside the completed scope. The report remains local for my review.
 
+## Follow the methodology in slides
+
+The [editable study presentation](outputs/slides/Dota2_KPI_Methodology_and_Questions.pptx) explains the questions, data cleaning, statistical measures, model choices, training procedure, documented problems and fixes. Each question or major step has its own slide with figures and bullet points. The neural architecture and the reason for using a fixed reference width are explained separately.
+
+The fitted architecture description and an additional source null metadata audit were added when explaining the methodology. They read saved weights and source headers. They did not retrain models, alter the original experiment or repeat final evaluation. Their evidence is saved in `outputs/results/D_neural_architecture_audit.json` and `D_poststudy_missingness_audit.json`.
+
 ## Start with the notebooks
 
 Each notebook has saved outputs, plain language explanations before code, inline comments and interpretation afterwards. The teaching notebooks read the frozen experiment evidence; rerunning them does not reopen final model selection. Training and extraction implementations are in `src/`.

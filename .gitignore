@@ -37,6 +37,7 @@ transcripts/
 .conda/
 .envs/
 .cache/
+.chart-data-*/
 
 # Report remains local until Forhad has reviewed it
 report/
